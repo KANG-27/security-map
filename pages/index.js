@@ -73,7 +73,7 @@ export default function Home() {
         />
       </div>
       <div>
-        <Inferior localidad={localidad} recuento={recuento} color={color} />
+        <Inferior localidad={localidad} recuento={recuento} color={color} candidatura={candidatura}  />
       </div>
       <div>
         <span className="text-xs flex justify-center my-10">
