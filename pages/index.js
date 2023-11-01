@@ -10,12 +10,10 @@ export default function Home() {
   const [color, setColor] = useState("white");
   const [localidad, setLocalidad] = useState();
   const [recuento, setRecuento] = useState();
-  // candidaturaUno = 0 candidaturaDOS = 1 
-  
+  // candidaturaUno = 0 candidaturaDOS = 1
+
   const [candidatura, setCandidatura] = useState(1);
   const [añoSeleccionado, setAñoSeleccionado] = useState("2023");
-
-
   // se hizo la validacion de que siempre que cambie la candidatura se va a poner la ultima fecha de la misma
   useEffect(() => {
     if (candidatura === 0) {
@@ -25,8 +23,11 @@ export default function Home() {
       setCandidatura(1);
       setAñoSeleccionado("2023");
     }
-  }, [candidatura]);
+    // var element = document.getElementById(añoSeleccionado);
+    // element.classList.add("bg-slate-100");
+  }, [candidatura, añoSeleccionado]);
 
+  // console.log(estadoAnterior)
   // console.log(candidatura)
   // console.log(añoSeleccionado)
 
@@ -44,25 +45,49 @@ export default function Home() {
         />
       </div>
       <div className="flex flex-col items-center">
-        <div className="flex gap-10 my-10">
-          <span onClick={() => setCandidatura(0)}>Candidatura 1</span>
-          <span onClick={() => setCandidatura(1)}>Candidatura 2</span>
+        <div className="flex gap-10 mb-10">
+          <button
+            type="button"
+            className="cursor-pointer hover:text-slate-900 rounded-lg hover:bg-slate-100 px-3 py-2"
+            onClick={() => setCandidatura(0)}
+          >
+            Candidatura 1
+          </button>
+          <button
+            type="button"
+            className="cursor-pointer hover:text-slate-900 rounded-lg hover:bg-slate-100 px-3 py-2"
+            onClick={() => setCandidatura(1)}
+          >
+            Candidatura 2
+          </button>
         </div>
-        <div className="flex gap-10">
-          {candidatura == 0 ? 
-              LocalidadesV2.CandidaturaUno.años.map((e) => (
+        <div className="flex gap-10 mb-10">
+          {candidatura == 0
+            ? LocalidadesV2.CandidaturaUno.años.map((e) => (
                 <>
-                  <span onClick={() => setAñoSeleccionado(e.año)}>{e.año}</span>
-                </>
-              )):
-              LocalidadesV2.CandidaturaDos.años.map((e) => (
-                <>
-                  <span onClick={() => setAñoSeleccionado(e.año)}>{e.año}</span>
+                  <button
+                    type="button"
+                    id={e.año}
+                    className="cursor-pointer hover:text-slate-900 rounded-lg hover:bg-slate-100 px-3 py-2"
+                    onClick={() => setAñoSeleccionado(e.año)}
+                  >
+                    {e.año}
+                  </button>
                 </>
               ))
-           }
+            : LocalidadesV2.CandidaturaDos.años.map((e) => (
+                <>
+                  <button
+                    type="button"
+                    id={e.año}
+                    className="cursor-pointer hover:text-slate-900 rounded-lg hover:bg-slate-100 px-3 py-2"
+                    onClick={() => setAñoSeleccionado(e.año)}
+                  >
+                    {e.año}
+                  </button>
+                </>
+              ))}
         </div>
-        <div></div>
         <Map
           cordenadas={cordenada}
           zoom={zoom}
@@ -72,9 +97,13 @@ export default function Home() {
           añoSeleccionado={añoSeleccionado}
         />
       </div>
-      <div>
-        <Inferior localidad={localidad} recuento={recuento} color={color} candidatura={candidatura} añoSeleccionado={añoSeleccionado}/>
-      </div>
+      <Inferior
+        localidad={localidad}
+        recuento={recuento}
+        color={color}
+        candidatura={candidatura}
+        añoSeleccionado={añoSeleccionado}
+      />
       <div>
         <span className="text-xs flex justify-center my-10">
           Esta informacion fue recolectada del año 2022

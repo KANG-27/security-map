@@ -13,12 +13,15 @@ import {
   VictoryTooltip,
   Bar,
   VictoryPie,
+  VictoryLabel,
 } from "victory";
 
 export default function GraficoTortaRoboLocalidad({
   candidatura,
   añoSeleccionado,
 }) {
+  const [graficoRoboLocalidad, setGraficoRoboLocalidad] = useState(false);
+
   const dataSelected = [];
 
   if (candidatura == 0) {
@@ -31,26 +34,68 @@ export default function GraficoTortaRoboLocalidad({
         // console.log(element)
         let valReplace = element.Total.replace(".", "");
         dataSelected.push({
-          x: i + 1,
+          x: element.LOCALIDADES,
           y: valReplace,
-          placement: element.LOCALIDADES,
+        });
+      });
+  } else {
+    let buscarAño = LocalidadesV2.CandidaturaDos.años.filter(
+      (x) => x.año === añoSeleccionado
+    );
+
+    buscarAño.length > 0 &&
+      buscarAño[0].centrosEnLocalidades.forEach((element, i) => {
+        // console.log(element)
+        let valReplace = element.Total.replace(".", "");
+        dataSelected.push({
+          x: element.LOCALIDADES,
+          y: valReplace,
         });
       });
   }
 
-  console.log(dataSelected);
   return (
-    <div>
-      <VictoryPie
-        colorScale="warm"
-        radius={120}
-        style={{ labels: { padding: 2, fontSize: 10 } }}
-        data={dataSelected}
-        labels={({ datum }) => `${datum.placement}\nlabel`}
-        labelPlacement={({ datum }) => datum.placement}
-        labelPosition="startAngle"
-        labelComponent={<VictoryTooltip active />}
-      />
+    <div className="flex flex-col">
+      <div
+        className="flex justify-between bg-[#D3D3D3] rounded-lg px-5 mt-20 mx-5 mr-10 cursor-pointer"
+        onClick={() => {
+          setGraficoRoboLocalidad(!graficoRoboLocalidad);
+        }}
+      >
+        <span>Grafico Torta robos por localidades</span>
+
+        <span>{graficoRoboLocalidad ? "+" : "-"}</span>
+      </div>
+      {graficoRoboLocalidad && (
+        <div className="mx-60 mt-20">
+          <span>Localidades:</span>
+          <div className="grid grid-cols-5 my-5">
+            {dataSelected.map((element) => (
+              <>
+                <span>{element.x}</span>
+              </>
+            ))}
+          </div>
+          <VictoryPie
+            data={dataSelected}
+            colorScale={[
+              "MediumSlateBlue",
+              "RebeccaPurple",
+              "DarkSlateBlue",
+              "SlateBlue",
+              "Indigo",
+              "Purple",
+            ]}
+            labels={({ datum }) => `${datum.x} Total de Robos: ${datum.y}`}
+            labelComponent={<VictoryTooltip />}
+            style={{
+              labels: {
+                fontSize: 10,
+              },
+            }}
+          />
+        </div>
+      )}
     </div>
   );
 }

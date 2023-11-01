@@ -6,9 +6,9 @@ export default function Tablas({ candidatura, añoSeleccionado }) {
 
  
   return (
-    <div className="flex justify-center">
+    <div className="w-full ">
       <GraficoBarrasAño/>
-      <GraficoTortaRoboLocalidad  candidatura={candidatura} añoSeleccionado={añoSeleccionado}/>
+      <GraficoTortaRoboLocalidad candidatura={candidatura} añoSeleccionado={añoSeleccionado}/>
     </div>
   );
 }

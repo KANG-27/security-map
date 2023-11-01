@@ -81,3 +81,11 @@ body {
   transition: box-shadow 0.2s;
   border-radius: 0;
 }
+
+
+/* victory */
+
+.VictoryContainer{
+  width: 50%;
+  height: 50%;
+}
