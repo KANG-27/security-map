@@ -1,9 +1,12 @@
-import Tablas from "components/Inferior/Tablas.js";
+import Tablas from "components/Inferior/Tablas/Tablas.js";
 
-
-export default function Inferior({ localidad, recuento, color, candidatura }) {
-
-
+export default function Inferior({
+  localidad,
+  recuento,
+  color,
+  candidatura,
+  añoSeleccionado,
+}) {
   return (
     <>
       {localidad != undefined && (
@@ -35,11 +38,8 @@ export default function Inferior({ localidad, recuento, color, candidatura }) {
           </div>
         </div>
       )}
-      
-          <div className="w-[20%]">
-            <Tablas candidatura={candidatura}/>
-          </div>
-     
+
+      <Tablas candidatura={candidatura} añoSeleccionado={añoSeleccionado} />
     </>
   );
 }

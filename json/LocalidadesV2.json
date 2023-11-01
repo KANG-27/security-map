@@ -1904,7 +1904,8 @@
             "Total": "0",
             "Categorizacion": "green"
           }
-        ]
+        ],
+        "TotalRobos": 37950
       },
       {
         "año": "2017",
@@ -3808,7 +3809,8 @@
             "Total": "0",
             "Categorizacion": "green"
           }
-        ]
+        ],
+        "TotalRobos": 76905
       },
       {
         "año": "2018",
@@ -5780,7 +5782,9 @@
             "Total": "0",
             "Categorizacion": "green"
           }
-        ]
+        ],
+        "TotalRobos": 105943
+        
       },
       {
         "año": "2019",
@@ -7800,7 +7804,8 @@
             "Total": "11",
             "Categorizacion": "green"
           }
-        ]
+        ],
+        "TotalRobos": 127798
       }
     ]
   },
@@ -9826,7 +9831,9 @@
             "Total": "7",
             "Categorizacion": "green"
           }
-        ]
+        ],
+        "TotalRobos": 83131
+
       },
 
       {
@@ -11847,7 +11854,9 @@
             "Total": "45",
             "Categorizacion": "green"
           }
-        ]
+        ],
+        "TotalRobos": 108785
+
       },
 
       {
@@ -13875,7 +13884,9 @@
             "Total": "14",
             "Categorizacion": "green"
           }
-        ]
+        ],
+        "TotalRobos": 137132
+
       },
 
       {
@@ -15947,7 +15958,9 @@
             "Total": "32",
             "Categorizacion": "green"
           }
-        ]
+        ],
+        "TotalRobos": 96653
+
       }
     ]
   }
