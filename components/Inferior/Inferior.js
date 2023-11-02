@@ -95,7 +95,27 @@ export default function Inferior({
           <Tablas candidatura={candidatura} añoSeleccionado={añoSeleccionado} />
         </div>
       ) : (
-        <GraficoTotalRoboAño />
+        <div className="flex w-full">
+          <div className="w-[35%] rounded-xl bg-slate-400 gap-10 p-8 m-5 ">
+            <div className="flex flex-col gap-5">
+              <span className="font-semibold">
+                BOGOTA - 2016 a 2023
+              </span>
+              <div className="ml-5 flex flex-col gap-2">
+                <span className="text-sm">
+                  Total de robos: {LocalidadesV2.CandidaturaUno.totalRobos+LocalidadesV2.CandidaturaDos.totalRobos}
+                </span>
+                <span className="text-sm">
+                  Total de CAIS: {LocalidadesV2.CandidaturaUno.totalCais+LocalidadesV2.CandidaturaDos.totalCais}
+                </span>
+                <span className="text-sm">
+                  Total de Hospitales: {LocalidadesV2.CandidaturaUno.totalHospitales+LocalidadesV2.CandidaturaDos.totalHospitales}
+                </span>
+              </div>
+            </div>
+          </div>
+          <GraficoTotalRoboAño />
+        </div>
       )}
     </>
   );

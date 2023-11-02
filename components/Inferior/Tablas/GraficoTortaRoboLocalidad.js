@@ -1,19 +1,11 @@
 // import Tablas from "components/Inferior/Tablas.js";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import LocalidadesV2 from "json/LocalidadesV2.json";
 
 import {
-  VictoryBar,
-  VictoryChart,
-  VictoryAxis,
-  VictoryTheme,
-  VictoryStack,
-  VictoryArea,
   VictoryTooltip,
-  Bar,
   VictoryPie,
-  VictoryLabel,
 } from "victory";
 
 export default function GraficoTortaRoboLocalidad({

@@ -45,7 +45,7 @@ export default function Home() {
         </div>
         <div className="flex gap-10 mb-10">
           {candidatura == 0
-            ? LocalidadesV2.CandidaturaUno.años.map((e) => (
+            ? LocalidadesV2.CandidaturaUno.años.map((e, i) => (
                 <>
                   <button
                     type="button"

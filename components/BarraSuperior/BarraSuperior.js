@@ -67,7 +67,7 @@ export default function BarraSuperior({
         <Logo />
         <span>Security Map</span>
       </div>
-      {dataSelected.length <= 0 && <span>por favor seleccione una fecha</span>}
+      {dataSelected.length <= 0 && <span className="text-red-600">por favor seleccione una fecha</span>}
       <label className="flex items-center bg-white rounded-2xl h-[3em]">
         <AutoComplete
           disabled={dataSelected.length > 0 ? false : true}

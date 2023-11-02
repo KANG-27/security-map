@@ -2,47 +2,32 @@
 
 import { useState, useEffect } from "react";
 import LocalidadesV2 from "json/LocalidadesV2.json";
-
-import {
-  VictoryBar,
-  VictoryChart,
-  VictoryAxis,
-  VictoryTheme,
-  VictoryStack,
-  VictoryArea,
-  VictoryTooltip,
-  Bar,
-  VictoryPolarAxis,
-  VictoryLabel,
-} from "victory";
+import { VictoryChart, VictoryArea, VictoryLabel } from "victory";
 
 export default function GraficoBarrasAño({ candidatura }) {
   const [graficoAño, setGraficoAño] = useState(true);
 
-const [datacompleta, setDatacompleta]= useState()
- 
+  const [datacompleta, setDatacompleta] = useState();
 
   useEffect(() => {
     if (candidatura == 0) {
-      setDatacompleta((element)=>{
-        let variable=[]
+      setDatacompleta((element) => {
+        let variable = [];
         LocalidadesV2.CandidaturaUno.años.forEach((element) => {
           variable.push({ x: element.año, y: element.TotalRobos });
         });
-        return(variable)
-      })
-      
+        return variable;
+      });
     } else {
-      setDatacompleta((element)=>{
-        let variable=[]
+      setDatacompleta((element) => {
+        let variable = [];
         LocalidadesV2.CandidaturaDos.años.forEach((element) => {
           variable.push({ x: element.año, y: element.TotalRobos });
         });
-        return(variable)
-      })
+        return variable;
+      });
     }
   }, [candidatura]);
-
 
   return (
     <div className="flex flex-col">
@@ -53,7 +38,6 @@ const [datacompleta, setDatacompleta]= useState()
         }}
       >
         <span>Grafico por año</span>
-
         <span>{graficoAño ? "+" : "-"}</span>
       </div>
       {graficoAño && (
@@ -77,33 +61,6 @@ const [datacompleta, setDatacompleta]= useState()
           </VictoryChart>
         </div>
       )}
-
-      {/* Total de robos por año en la candidatura  */}
-      {/* <VictoryChart domainPadding={{ x: 30 }}>
-        <VictoryBar
-          name="area-3"
-          data={data.CandidaturaUno}
-          style={{ data: { fill: "#0f0d8f" } }}
-          labels={({ datum }) => `Total de Robos: ${datum.y}`}
-          labelComponent={<VictoryTooltip />}
-          dataComponent={
-            <Bar tabIndex={0} ariaLabel={({ datum }) => `x: ${datum.x}`} />
-          }
-        />
-      </VictoryChart> */}
-      {/* Total de robos por año en la candidatura dos */}
-      {/* <VictoryChart domainPadding={{ x: 30 }}>
-        <VictoryBar
-          name="area-3"
-          data={data.CandidaturaDos}
-          style={{ data: { fill: "#0f0d8f" } }}
-          labels={({ datum }) => `Total de Robos: ${datum.y}`}
-          labelComponent={<VictoryTooltip />}
-          dataComponent={
-            <Bar tabIndex={0} ariaLabel={({ datum }) => `x: ${datum.x}`} />
-          }
-        />
-      </VictoryChart> */}
     </div>
   );
 }
