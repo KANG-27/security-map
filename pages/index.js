@@ -9,13 +9,10 @@ export default function Home() {
   const [zoom, setZoom] = useState(11);
   const [color, setColor] = useState("white");
   const [localidad, setLocalidad] = useState();
-  const [recuento, setRecuento] = useState();
   // candidaturaUno = 0 candidaturaDOS = 1
 
   const [candidatura, setCandidatura] = useState(1);
-  const [añoSeleccionado, setAñoSeleccionado] = useState("2023");
-
-
+  const [añoSeleccionado, setAñoSeleccionado] = useState();
 
   return (
     <div className="mt-10">
@@ -25,7 +22,6 @@ export default function Home() {
           setZoom={setZoom}
           setColor={setColor}
           setLocalidad={setLocalidad}
-          setRecuento={setRecuento}
           candidatura={candidatura}
           añoSeleccionado={añoSeleccionado}
         />
@@ -85,12 +81,11 @@ export default function Home() {
       </div>
       <Inferior
         localidad={localidad}
-        recuento={recuento}
         color={color}
         candidatura={candidatura}
         añoSeleccionado={añoSeleccionado}
       />
-      
+
       <div className="bg-slate-400 flex items-center gap-10 justify-evenly my-10">
         <div className="flex flex-col my-5">
           <span className="text-xs">Esta pagina fue creada por :</span>

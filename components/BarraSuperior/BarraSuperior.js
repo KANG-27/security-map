@@ -8,7 +8,6 @@ export default function BarraSuperior({
   setZoom,
   setColor,
   setLocalidad,
-  setRecuento,
   candidatura,
   añoSeleccionado,
 }) {
@@ -39,7 +38,6 @@ export default function BarraSuperior({
       );
       setLocalidad(valueSelected[0].LOCALIDADES);
       setCordenada(valueSelected[0].CoordenadasUpz);
-      setRecuento(valueSelected[0].Total);
       setColor(valueSelected[0].Categorizacion);
       setZoom(400);
     }
@@ -63,7 +61,6 @@ export default function BarraSuperior({
     setItems(coincidencias !== "" && coincidencias);
   };
 
-  console.log(dataSelected);
   return (
     <div className="flex items-center justify-between mx-10 mb-10">
       <div className="flex items-center flex-col ml-5">
@@ -71,7 +68,7 @@ export default function BarraSuperior({
         <span>Security Map</span>
       </div>
       {dataSelected.length <= 0 && <span>por favor seleccione una fecha</span>}
-      <label className="cursor-not-allowed flex items-center bg-white rounded-2xl h-[3em]">
+      <label className="flex items-center bg-white rounded-2xl h-[3em]">
         <AutoComplete
           disabled={dataSelected.length > 0 ? false : true}
           value={value}

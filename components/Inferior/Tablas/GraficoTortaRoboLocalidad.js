@@ -31,7 +31,6 @@ export default function GraficoTortaRoboLocalidad({
 
     buscarAño.length > 0 &&
       buscarAño[0].centrosEnLocalidades.forEach((element, i) => {
-        // console.log(element)
         let valReplace = element.Total.replace(".", "");
         dataSelected.push({
           x: element.LOCALIDADES,
@@ -45,7 +44,6 @@ export default function GraficoTortaRoboLocalidad({
 
     buscarAño.length > 0 &&
       buscarAño[0].centrosEnLocalidades.forEach((element, i) => {
-        // console.log(element)
         let valReplace = element.Total.replace(".", "");
         dataSelected.push({
           x: element.LOCALIDADES,

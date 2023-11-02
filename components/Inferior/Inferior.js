@@ -1,11 +1,9 @@
-import { useEffect } from "react";
 import GraficoTotalRoboAño from "./Tablas/GraficoTotalRoboAño";
 import Tablas from "./Tablas/Tablas";
 import LocalidadesV2 from "json/LocalidadesV2.json";
 
 export default function Inferior({
   localidad,
-  recuento,
   color,
   candidatura,
   añoSeleccionado,
@@ -13,40 +11,36 @@ export default function Inferior({
   let data;
   let añoSelect;
 
-
-
-    if (localidad != undefined) {
-      if (candidatura == 0) {
-        añoSelect = LocalidadesV2.CandidaturaUno.años.filter(
-          (x) => x.año == añoSeleccionado
+  if (localidad != undefined) {
+    if (candidatura == 0) {
+      añoSelect = LocalidadesV2.CandidaturaUno.años.filter(
+        (x) => x.año == añoSeleccionado
+      );
+      data =
+        añoSelect.length > 0 &&
+        añoSelect[0].centrosEnLocalidades.filter(
+          (x) => x.LOCALIDADES == localidad
         );
-  
-        data =
-          añoSelect.length > 0 &&
-          añoSelect[0].centrosEnLocalidades.filter(
-            (x) => x.LOCALIDADES == localidad
-          );
-      } else {
-        añoSelect = LocalidadesV2.CandidaturaDos.años.filter(
-          (x) => x.año == añoSeleccionado
+    } else {
+      añoSelect = LocalidadesV2.CandidaturaDos.años.filter(
+        (x) => x.año == añoSeleccionado
+      );
+      data =
+        añoSelect.length > 0 &&
+        añoSelect[0].centrosEnLocalidades.filter(
+          (x) => x.LOCALIDADES == localidad
         );
-        data =
-          añoSelect.length > 0 &&
-          añoSelect[0].centrosEnLocalidades.filter(
-            (x) => x.LOCALIDADES == localidad
-          );
-      }
     }
- 
-
-
+  }
   return (
     <>
       {localidad != undefined && añoSelect.length > 0 ? (
         <div className="flex w-full">
           <div className=" rounded-xl bg-slate-400 gap-10 p-8 m-5 w-full">
             <div className="flex flex-col gap-5">
-              <span className="font-semibold">{data[0].LOCALIDADES} - {añoSeleccionado}</span>
+              <span className="font-semibold">
+                {data[0].LOCALIDADES} - {añoSeleccionado}
+              </span>
 
               <div className="ml-5 flex flex-col gap-2">
                 <span className="text-sm">
@@ -69,6 +63,12 @@ export default function Inferior({
                 </span>
                 <span className="text-sm">
                   Casos contundentes: {data[0].Contundentes}
+                </span>
+                <span className="text-sm">
+                  Cantidad de CAIS: {data[0].cai.length}
+                </span>
+                <span className="text-sm">
+                  Cantidad de Hospitales: {data[0].hospital.length}
                 </span>
                 <span className="text-sm">
                   Esta zona es{" "}
