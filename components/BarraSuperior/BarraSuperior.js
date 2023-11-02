@@ -17,37 +17,33 @@ export default function BarraSuperior({
   const [change, setChange] = useState();
   const [value, setValue] = useState("");
   const [items, setItems] = useState([]);
+  const [validador, setValidador] = useState(false);
 
-  let dataSelected
+  let dataSelected;
 
-  if(candidatura == 0){
+  if (candidatura == 0) {
     dataSelected = LocalidadesV2.CandidaturaUno.años.filter(
       (x) => x.año === añoSeleccionado
-    )
-  }else{
+    );
+  } else {
     dataSelected = LocalidadesV2.CandidaturaDos.años.filter(
       (x) => x.año === añoSeleccionado
-    )
+    );
   }
-
 
   // Guarda las variables que son necesarias para pintar el mapa
   if (change != undefined) {
-
-    if(dataSelected.length > 0){
-    var valueSelected =  dataSelected[0].centrosEnLocalidades.filter(
-      (value) => value.LOCALIDADES == change
-    );
-
-    console.log(valueSelected)
-    setLocalidad(valueSelected[0].LOCALIDADES);
-    setCordenada(valueSelected[0].CoordenadasUpz);
-    // setRecuento(valueSelected[0].recuento);
-    setColor(valueSelected[0].Categorizacion);
-    setZoom(400);}
+    if (dataSelected.length > 0) {
+      var valueSelected = dataSelected[0].centrosEnLocalidades.filter(
+        (value) => value.LOCALIDADES == change
+      );
+      setLocalidad(valueSelected[0].LOCALIDADES);
+      setCordenada(valueSelected[0].CoordenadasUpz);
+      setRecuento(valueSelected[0].Total);
+      setColor(valueSelected[0].Categorizacion);
+      setZoom(400);
+    }
   }
-
-
 
   // busca dentro de la data lo que escribio el usuario
   const search = (event) => {
@@ -67,16 +63,17 @@ export default function BarraSuperior({
     setItems(coincidencias !== "" && coincidencias);
   };
 
-  // console.log(items);
-
+  console.log(dataSelected);
   return (
     <div className="flex items-center justify-between mx-10 mb-10">
       <div className="flex items-center flex-col ml-5">
         <Logo />
         <span>Security Map</span>
       </div>
-      <label className="flex items-center bg-white rounded-2xl h-[3em]">
+      {dataSelected.length <= 0 && <span>por favor seleccione una fecha</span>}
+      <label className="cursor-not-allowed flex items-center bg-white rounded-2xl h-[3em]">
         <AutoComplete
+          disabled={dataSelected.length > 0 ? false : true}
           value={value}
           suggestions={items}
           completeMethod={search}

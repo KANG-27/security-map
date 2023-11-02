@@ -14,22 +14,8 @@ export default function Home() {
 
   const [candidatura, setCandidatura] = useState(1);
   const [añoSeleccionado, setAñoSeleccionado] = useState("2023");
-  // se hizo la validacion de que siempre que cambie la candidatura se va a poner la ultima fecha de la misma
-  useEffect(() => {
-    if (candidatura === 0) {
-      setCandidatura(0);
-      setAñoSeleccionado("2019");
-    } else {
-      setCandidatura(1);
-      setAñoSeleccionado("2023");
-    }
-    // var element = document.getElementById(añoSeleccionado);
-    // element.classList.add("bg-slate-100");
-  }, [candidatura, añoSeleccionado]);
 
-  // console.log(estadoAnterior)
-  // console.log(candidatura)
-  // console.log(añoSeleccionado)
+
 
   return (
     <div className="mt-10">
@@ -104,12 +90,8 @@ export default function Home() {
         candidatura={candidatura}
         añoSeleccionado={añoSeleccionado}
       />
-      <div>
-        <span className="text-xs flex justify-center my-10">
-          Esta informacion fue recolectada del año 2022
-        </span>
-      </div>
-      <div className="bg-slate-400 flex items-center gap-10 justify-evenly">
+      
+      <div className="bg-slate-400 flex items-center gap-10 justify-evenly my-10">
         <div className="flex flex-col my-5">
           <span className="text-xs">Esta pagina fue creada por :</span>
           <span className="text-xs  mt-3">Kevin Andres Niño Guerrero</span>

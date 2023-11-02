@@ -20,7 +20,7 @@ export default function GraficoTortaRoboLocalidad({
   candidatura,
   añoSeleccionado,
 }) {
-  const [graficoRoboLocalidad, setGraficoRoboLocalidad] = useState(false);
+  const [graficoRoboLocalidad, setGraficoRoboLocalidad] = useState(true);
 
   const dataSelected = [];
 
@@ -67,33 +67,35 @@ export default function GraficoTortaRoboLocalidad({
         <span>{graficoRoboLocalidad ? "+" : "-"}</span>
       </div>
       {graficoRoboLocalidad && (
-        <div className="mx-60 mt-20">
+        <div className=" mx-5 ml-14 mt-20">
           <span>Localidades:</span>
-          <div className="grid grid-cols-5 my-5">
+          <div className="grid grid-cols-4 my-5">
             {dataSelected.map((element) => (
               <>
                 <span>{element.x}</span>
               </>
             ))}
           </div>
-          <VictoryPie
-            data={dataSelected}
-            colorScale={[
-              "MediumSlateBlue",
-              "RebeccaPurple",
-              "DarkSlateBlue",
-              "SlateBlue",
-              "Indigo",
-              "Purple",
-            ]}
-            labels={({ datum }) => `${datum.x} Total de Robos: ${datum.y}`}
-            labelComponent={<VictoryTooltip />}
-            style={{
-              labels: {
-                fontSize: 10,
-              },
-            }}
-          />
+          <div className="mx-60">
+            <VictoryPie
+              data={dataSelected}
+              colorScale={[
+                "MediumSlateBlue",
+                "RebeccaPurple",
+                "DarkSlateBlue",
+                "SlateBlue",
+                "Indigo",
+                "Purple",
+              ]}
+              labels={({ datum }) => `${datum.x} Total de Robos: ${datum.y}`}
+              labelComponent={<VictoryTooltip />}
+              style={{
+                labels: {
+                  fontSize: 10,
+                },
+              }}
+            />
+          </div>
         </div>
       )}
     </div>
