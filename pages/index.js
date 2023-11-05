@@ -7,12 +7,57 @@ import LocalidadesV2 from "json/LocalidadesV2.json";
 export default function Home() {
   const [cordenada, setCordenada] = useState([4.60971, -74.08175]);
   const [zoom, setZoom] = useState(11);
-  const [color, setColor] = useState("white");
+  const [color, setColor] = useState("transparent");
   const [localidad, setLocalidad] = useState();
   // candidaturaUno = 0 candidaturaDOS = 1
 
   const [candidatura, setCandidatura] = useState(1);
   const [añoSeleccionado, setAñoSeleccionado] = useState();
+  const [condicionSeleccion, setCondicionSeleccion] = useState(false);
+
+  useEffect(() => {
+    const buttonsCandidatura = document.querySelectorAll(".candidatura");
+    let lastClickedButtonCandidatura = null;
+
+    buttonsCandidatura.forEach((button) => {
+      button.addEventListener("click", () => {
+        if (lastClickedButtonCandidatura !== button) {
+          if (lastClickedButtonCandidatura) {
+            lastClickedButtonCandidatura.classList.remove("active");
+            // Desactivar los botones "buttons" cuando se activa un botón "buttonsCandidatura"
+            disableButtons();
+          }
+          button.classList.add("active");
+          lastClickedButtonCandidatura = button;
+        }
+      });
+    });
+
+    const buttons = document.querySelectorAll(".miBoton");
+    let lastClickedButton = null;
+
+    buttons.forEach((button) => {
+      button.addEventListener("click", () => {
+        if (lastClickedButton !== button) {
+          if (lastClickedButton) {
+            lastClickedButton.classList.remove("active");
+          }
+          button.classList.add("active");
+          lastClickedButton = button;
+        }
+      });
+    });
+
+    function disableButtons() {
+      buttons.forEach((button) => {
+        setAñoSeleccionado("")
+        setCordenada([4.60971, -74.08175])
+        setColor("transparent")
+        button.classList.remove("active");
+      });
+    }
+  }, [candidatura, condicionSeleccion]);
+
 
   return (
     <div className="mt-10">
@@ -24,20 +69,33 @@ export default function Home() {
           setLocalidad={setLocalidad}
           candidatura={candidatura}
           añoSeleccionado={añoSeleccionado}
+          setCondicionSeleccion={setCondicionSeleccion}
         />
+        <div className="flex flex-col items-center mb-10">
+          {condicionSeleccion && (
+            <div className="flex text-center">
+              <span class="material-symbols-outlined text-red-600 mr-5">
+                error
+              </span>
+              <span className="text-red-600">
+                Seleccione un año antes de hacer una busqueda
+              </span>
+            </div>
+          )}
+        </div>
       </div>
       <div className="flex flex-col items-center">
         <div className="flex gap-10 mb-10">
           <button
-            type="button"
-            className="cursor-pointer hover:text-slate-900 rounded-lg hover:bg-slate-100 px-3 py-2"
+            data-value={"CandidaturaUno"}
+            className="candidatura buttonyear"
             onClick={() => setCandidatura(0)}
           >
             Candidatura 1
           </button>
           <button
-            type="button"
-            className="cursor-pointer hover:text-slate-900 rounded-lg hover:bg-slate-100 px-3 py-2"
+            data-value={"CandidaturaUno"}
+            className="candidatura buttonyear"
             onClick={() => setCandidatura(1)}
           >
             Candidatura 2
@@ -45,12 +103,11 @@ export default function Home() {
         </div>
         <div className="flex gap-10 mb-10">
           {candidatura == 0
-            ? LocalidadesV2.CandidaturaUno.años.map((e, i) => (
+            ? LocalidadesV2.CandidaturaUno.años.map((e) => (
                 <>
                   <button
-                    type="button"
-                    id={e.año}
-                    className="cursor-pointer hover:text-slate-900 rounded-lg hover:bg-slate-100 px-3 py-2"
+                    data-value={e.año.toString()}
+                    class="miBoton buttonyear"
                     onClick={() => setAñoSeleccionado(e.año)}
                   >
                     {e.año}
@@ -60,9 +117,8 @@ export default function Home() {
             : LocalidadesV2.CandidaturaDos.años.map((e) => (
                 <>
                   <button
-                    type="button"
-                    id={e.año}
-                    className="cursor-pointer hover:text-slate-900 rounded-lg hover:bg-slate-100 px-3 py-2"
+                    data-value={e.año.toString()}
+                    class="miBoton buttonyear"
                     onClick={() => setAñoSeleccionado(e.año)}
                   >
                     {e.año}

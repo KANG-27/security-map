@@ -7,7 +7,7 @@
       {
         "año": "2016",
         "totalCais": 154,
-        "totalhospitales":83,
+        "totalhospitales": 83,
         "centrosEnLocalidades": [
           {
             "LOCALIDADES": "USAQUÉN",
@@ -413,7 +413,7 @@
                 "Dirección": "Carrera 2A # 38-20 Sur",
                 "Teléfono": "2077934",
                 "Barrio": "",
-                "CoordenadasCai": [4.55527777800, -74.09527778000139]
+                "CoordenadasCai": [4.555277778, -74.09527778000139]
               }
             ],
             "hospital": [
@@ -507,21 +507,21 @@
                 "Dirección": "Carrera 5 Con Cl 6 Usme Centro",
                 "Teléfono": "7660381 - 7660060",
                 "Barrio": "",
-                "CoordenadasCai": [4.59301481000, -74.07589942000150]
+                "CoordenadasCai": [4.59301481, -74.0758994200015]
               },
               {
                 "Nombre": "CAI SANTA MARTA",
                 "Dirección": "Cr 1 B-Bis 68b-54 Sur Este",
                 "Teléfono": "9119763",
                 "Barrio": "",
-                "CoordenadasCai": [4.53944444400, -74.11277778000147]
+                "CoordenadasCai": [4.539444444, -74.11277778000147]
               },
               {
                 "Nombre": "CAI SANTA LIBRADA",
                 "Dirección": "Calle 75 Sur # 1d-12 Sur",
                 "Teléfono": "9119660",
                 "Barrio": "",
-                "CoordenadasCai": [4.51527777800, -74.11666667000148]
+                "CoordenadasCai": [4.515277778, -74.11666667000148]
               }
             ],
             "hospital": [
@@ -1153,7 +1153,7 @@
                 "Dirección": "Carrera 123 # 64-65",
                 "Teléfono": "4422228",
                 "Barrio": "",
-                "CoordenadasCai": [4.71500000000, -74.14138889000197]
+                "CoordenadasCai": [4.715, -74.14138889000197]
               }
             ],
             "hospital": [
@@ -1431,7 +1431,8 @@
                 "Barrio": "LA ESMERALDA",
                 "CoordenadasCai": [4.646207001153015, -74.09065100074241]
               }
-            ]
+            ],
+            "hospital": []
           },
           {
             "LOCALIDADES": "LOS MARTIRES",
@@ -1473,7 +1474,8 @@
                 "Barrio": "SANTA ISABEL",
                 "CoordenadasCai": [4.598327000991105, -74.10023600118984]
               }
-            ]
+            ],
+            "hospital": []
           },
           {
             "LOCALIDADES": "ANTONIO NARIÑO",
@@ -1515,7 +1517,8 @@
                 "Barrio": "RESTREPO OCCIDENTAL",
                 "CoordenadasCai": [4.589397001071574, -74.10476500140305]
               }
-            ]
+            ],
+            "hospital": []
           },
           {
             "LOCALIDADES": "PUENTE ARANDA",
@@ -1817,7 +1820,7 @@
                 "Dirección": "Carrera 73 # 63A-12",
                 "Teléfono": "7754486",
                 "Barrio": "",
-                "CoordenadasCai": [4.58611111100, -74.169722220001170]
+                "CoordenadasCai": [4.586111111, -74.16972222000117]
               }
             ],
             "hospital": [
@@ -1888,6 +1891,7 @@
             "Total": "0",
             "Categorizacion": "green",
             "CoordenadasUpz": [4.0266666666667, -74.245],
+            "cai": [],
             "hospital": [
               {
                 "Nombre__1": "Centro de Salud San Juan de Sumapaz",
@@ -1914,7 +1918,7 @@
       {
         "año": "2017",
         "totalCais": 154,
-        "totalhospitales":83,
+        "totalhospitales": 83,
         "centrosEnLocalidades": [
           {
             "LOCALIDADES": "USAQUÉN",
@@ -2320,7 +2324,7 @@
                 "Dirección": "Carrera 2A # 38-20 Sur",
                 "Teléfono": "2077934",
                 "Barrio": "",
-                "CoordenadasCai": [4.55527777800, -74.09527778000139]
+                "CoordenadasCai": [4.555277778, -74.09527778000139]
               }
             ],
             "hospital": [
@@ -2414,21 +2418,21 @@
                 "Dirección": "Carrera 5 Con Cl 6 Usme Centro",
                 "Teléfono": "7660381 - 7660060",
                 "Barrio": "",
-                "CoordenadasCai": [4.59301481000, -74.07589942000150]
+                "CoordenadasCai": [4.59301481, -74.0758994200015]
               },
               {
                 "Nombre": "CAI SANTA MARTA",
                 "Dirección": "Cr 1 B-Bis 68b-54 Sur Este",
                 "Teléfono": "9119763",
                 "Barrio": "",
-                "CoordenadasCai": [4.53944444400, -74.11277778000147]
+                "CoordenadasCai": [4.539444444, -74.11277778000147]
               },
               {
                 "Nombre": "CAI SANTA LIBRADA",
                 "Dirección": "Calle 75 Sur # 1d-12 Sur",
                 "Teléfono": "9119660",
                 "Barrio": "",
-                "CoordenadasCai": [4.51527777800, -74.11666667000148]
+                "CoordenadasCai": [4.515277778, -74.11666667000148]
               }
             ],
             "hospital": [
@@ -3060,7 +3064,7 @@
                 "Dirección": "Carrera 123 # 64-65",
                 "Teléfono": "4422228",
                 "Barrio": "",
-                "CoordenadasCai": [4.71500000000, -74.14138889000197]
+                "CoordenadasCai": [4.715, -74.14138889000197]
               }
             ],
             "hospital": [
@@ -3338,7 +3342,8 @@
                 "Barrio": "LA ESMERALDA",
                 "CoordenadasCai": [4.646207001153015, -74.09065100074241]
               }
-            ]
+            ],
+            "hospital": []
           },
           {
             "LOCALIDADES": "LOS MARTIRES",
@@ -3380,7 +3385,8 @@
                 "Barrio": "SANTA ISABEL",
                 "CoordenadasCai": [4.598327000991105, -74.10023600118984]
               }
-            ]
+            ],
+            "hospital": []
           },
           {
             "LOCALIDADES": "ANTONIO NARIÑO",
@@ -3422,7 +3428,8 @@
                 "Barrio": "RESTREPO OCCIDENTAL",
                 "CoordenadasCai": [4.589397001071574, -74.10476500140305]
               }
-            ]
+            ],
+            "hospital": []
           },
           {
             "LOCALIDADES": "PUENTE ARANDA",
@@ -3724,7 +3731,7 @@
                 "Dirección": "Carrera 73 # 63A-12",
                 "Teléfono": "7754486",
                 "Barrio": "",
-                "CoordenadasCai": [4.58611111100, -74.169722220001170]
+                "CoordenadasCai": [4.586111111, -74.16972222000117]
               }
             ],
             "hospital": [
@@ -3795,6 +3802,7 @@
             "Total": "1",
             "Categorizacion": "green",
             "CoordenadasUpz": [4.0266666666667, -74.245],
+            "cai": [],
             "hospital": [
               {
                 "Nombre__1": "Centro de Salud San Juan de Sumapaz",
@@ -3821,7 +3829,7 @@
       {
         "año": "2018",
         "totalCais": 154,
-        "totalhospitales":94,
+        "totalhospitales": 94,
         "centrosEnLocalidades": [
           {
             "LOCALIDADES": "USAQUÉN",
@@ -4233,7 +4241,7 @@
                 "Dirección": "Carrera 2A # 38-20 Sur",
                 "Teléfono": "2077934",
                 "Barrio": "",
-                "CoordenadasCai": [4.55527777800, -74.09527778000139]
+                "CoordenadasCai": [4.555277778, -74.09527778000139]
               }
             ],
             "hospital": [
@@ -4333,21 +4341,21 @@
                 "Dirección": "Carrera 5 Con Cl 6 Usme Centro",
                 "Teléfono": "7660381 - 7660060",
                 "Barrio": "",
-                "CoordenadasCai": [4.59301481000, -74.07589942000150]
+                "CoordenadasCai": [4.59301481, -74.0758994200015]
               },
               {
                 "Nombre": "CAI SANTA MARTA",
                 "Dirección": "Cr 1 B-Bis 68b-54 Sur Este",
                 "Teléfono": "9119763",
                 "Barrio": "",
-                "CoordenadasCai": [4.53944444400, -74.11277778000147]
+                "CoordenadasCai": [4.539444444, -74.11277778000147]
               },
               {
                 "Nombre": "CAI SANTA LIBRADA",
                 "Dirección": "Calle 75 Sur # 1d-12 Sur",
                 "Teléfono": "9119660",
                 "Barrio": "",
-                "CoordenadasCai": [4.51527777800, -74.11666667000148]
+                "CoordenadasCai": [4.515277778, -74.11666667000148]
               }
             ],
             "hospital": [
@@ -4997,7 +5005,7 @@
                 "Dirección": "Carrera 123 # 64-65",
                 "Teléfono": "4422228",
                 "Barrio": "",
-                "CoordenadasCai": [4.71500000000, -74.14138889000197]
+                "CoordenadasCai": [4.715, -74.14138889000197]
               }
             ],
             "hospital": [
@@ -5293,7 +5301,8 @@
                 "Barrio": "LA ESMERALDA",
                 "CoordenadasCai": [4.646207001153015, -74.09065100074241]
               }
-            ]
+            ],
+            "hospital": []
           },
           {
             "LOCALIDADES": "LOS MARTIRES",
@@ -5385,7 +5394,8 @@
                 "Barrio": "RESTREPO OCCIDENTAL",
                 "CoordenadasCai": [4.589397001071574, -74.10476500140305]
               }
-            ]
+            ],
+            "hospital": []
           },
           {
             "LOCALIDADES": "PUENTE ARANDA",
@@ -5693,7 +5703,7 @@
                 "Dirección": "Carrera 73 # 63A-12",
                 "Teléfono": "7754486",
                 "Barrio": "",
-                "CoordenadasCai": [4.58611111100, -74.169722220001170]
+                "CoordenadasCai": [4.586111111, -74.16972222000117]
               }
             ],
             "hospital": [
@@ -5770,6 +5780,7 @@
             "Total": "3",
             "Categorizacion": "green",
             "CoordenadasUpz": [4.0266666666667, -74.245],
+            "cai": [],
             "hospital": [
               {
                 "Nombre__1": "Centro de Salud San Juan de Sumapaz",
@@ -5792,12 +5803,11 @@
           }
         ],
         "TotalRobos": 105943
-        
       },
       {
         "año": "2019",
         "totalCais": 154,
-        "totalhospitales":102,
+        "totalhospitales": 102,
         "centrosEnLocalidades": [
           {
             "LOCALIDADES": "USAQUÉN",
@@ -6209,7 +6219,7 @@
                 "Dirección": "Carrera 2A # 38-20 Sur",
                 "Teléfono": "2077934",
                 "Barrio": "",
-                "CoordenadasCai": [4.55527777800, -74.09527778000139]
+                "CoordenadasCai": [4.555277778, -74.09527778000139]
               }
             ],
             "hospital": [
@@ -6309,21 +6319,21 @@
                 "Dirección": "Carrera 5 Con Cl 6 Usme Centro",
                 "Teléfono": "7660381 - 7660060",
                 "Barrio": "",
-                "CoordenadasCai": [4.59301481000, -74.07589942000150]
+                "CoordenadasCai": [4.59301481, -74.0758994200015]
               },
               {
                 "Nombre": "CAI SANTA MARTA",
                 "Dirección": "Cr 1 B-Bis 68b-54 Sur Este",
                 "Teléfono": "9119763",
                 "Barrio": "",
-                "CoordenadasCai": [4.53944444400, -74.11277778000147]
+                "CoordenadasCai": [4.539444444, -74.11277778000147]
               },
               {
                 "Nombre": "CAI SANTA LIBRADA",
                 "Dirección": "Calle 75 Sur # 1d-12 Sur",
                 "Teléfono": "9119660",
                 "Barrio": "",
-                "CoordenadasCai": [4.51527777800, -74.11666667000148]
+                "CoordenadasCai": [4.515277778, -74.11666667000148]
               }
             ],
             "hospital": [
@@ -6997,7 +7007,7 @@
                 "Dirección": "Carrera 123 # 64-65",
                 "Teléfono": "4422228",
                 "Barrio": "",
-                "CoordenadasCai": [4.71500000000, -74.14138889000197]
+                "CoordenadasCai": [4.715, -74.14138889000197]
               }
             ],
             "hospital": [
@@ -7311,7 +7321,8 @@
                 "Barrio": "LA ESMERALDA",
                 "CoordenadasCai": [4.646207001153015, -74.09065100074241]
               }
-            ]
+            ],
+            "hospital": []
           },
           {
             "LOCALIDADES": "LOS MARTIRES",
@@ -7403,7 +7414,8 @@
                 "Barrio": "RESTREPO OCCIDENTAL",
                 "CoordenadasCai": [4.589397001071574, -74.10476500140305]
               }
-            ]
+            ],
+            "hospital": []
           },
           {
             "LOCALIDADES": "PUENTE ARANDA",
@@ -7717,7 +7729,7 @@
                 "Dirección": "Carrera 73 # 63A-12",
                 "Teléfono": "7754486",
                 "Barrio": "",
-                "CoordenadasCai": [4.58611111100, -74.169722220001170]
+                "CoordenadasCai": [4.586111111, -74.16972222000117]
               }
             ],
             "hospital": [
@@ -7794,6 +7806,7 @@
             "Total": "0",
             "Categorizacion": "green",
             "CoordenadasUpz": [4.0266666666667, -74.245],
+            "cai": [],
             "hospital": [
               {
                 "Nombre__1": "Centro de Salud San Juan de Sumapaz",
@@ -7829,7 +7842,7 @@
       {
         "año": "2020",
         "totalCais": 154,
-        "totalhospitales":102,
+        "totalhospitales": 102,
         "centrosEnLocalidades": [
           {
             "LOCALIDADES": "USAQUÉN",
@@ -8241,7 +8254,7 @@
                 "Dirección": "Carrera 2A # 38-20 Sur",
                 "Teléfono": "2077934",
                 "Barrio": "",
-                "CoordenadasCai": [4.55527777800, -74.09527778000139]
+                "CoordenadasCai": [4.555277778, -74.09527778000139]
               }
             ],
             "hospital": [
@@ -8341,21 +8354,21 @@
                 "Dirección": "Carrera 5 Con Cl 6 Usme Centro",
                 "Teléfono": "7660381 - 7660060",
                 "Barrio": "",
-                "CoordenadasCai": [4.59301481000, -74.07589942000150]
+                "CoordenadasCai": [4.59301481, -74.0758994200015]
               },
               {
                 "Nombre": "CAI SANTA MARTA",
                 "Dirección": "Cr 1 B-Bis 68b-54 Sur Este",
                 "Teléfono": "9119763",
                 "Barrio": "",
-                "CoordenadasCai": [4.53944444400, -74.11277778000147]
+                "CoordenadasCai": [4.539444444, -74.11277778000147]
               },
               {
                 "Nombre": "CAI SANTA LIBRADA",
                 "Dirección": "Calle 75 Sur # 1d-12 Sur",
                 "Teléfono": "9119660",
                 "Barrio": "",
-                "CoordenadasCai": [4.51527777800, -74.11666667000148]
+                "CoordenadasCai": [4.515277778, -74.11666667000148]
               }
             ],
             "hospital": [
@@ -9029,7 +9042,7 @@
                 "Dirección": "Carrera 123 # 64-65",
                 "Teléfono": "4422228",
                 "Barrio": "",
-                "CoordenadasCai": [4.71500000000, -74.14138889000197]
+                "CoordenadasCai": [4.715, -74.14138889000197]
               }
             ],
             "hospital": [
@@ -9343,7 +9356,8 @@
                 "Barrio": "LA ESMERALDA",
                 "CoordenadasCai": [4.646207001153015, -74.09065100074241]
               }
-            ]
+            ],
+            "hospital": []
           },
           {
             "LOCALIDADES": "LOS MARTIRES",
@@ -9435,7 +9449,8 @@
                 "Barrio": "RESTREPO OCCIDENTAL",
                 "CoordenadasCai": [4.589397001071574, -74.10476500140305]
               }
-            ]
+            ],
+            "hospital": []
           },
           {
             "LOCALIDADES": "PUENTE ARANDA",
@@ -9749,7 +9764,7 @@
                 "Dirección": "Carrera 73 # 63A-12",
                 "Teléfono": "7754486",
                 "Barrio": "",
-                "CoordenadasCai": [4.58611111100, -74.169722220001170]
+                "CoordenadasCai": [4.586111111, -74.16972222000117]
               }
             ],
             "hospital": [
@@ -9826,6 +9841,7 @@
             "Total": "2",
             "Categorizacion": "green",
             "CoordenadasUpz": [4.0266666666667, -74.245],
+            "cai": [],
             "hospital": [
               {
                 "Nombre__1": "Centro de Salud San Juan de Sumapaz",
@@ -9848,13 +9864,12 @@
           }
         ],
         "TotalRobos": 83131
-
       },
 
       {
         "año": "2021",
         "totalCais": 154,
-        "totalhospitales":102,
+        "totalhospitales": 102,
         "centrosEnLocalidades": [
           {
             "LOCALIDADES": "USAQUÉN",
@@ -10266,7 +10281,7 @@
                 "Dirección": "Carrera 2A # 38-20 Sur",
                 "Teléfono": "2077934",
                 "Barrio": "",
-                "CoordenadasCai": [4.55527777800, -74.09527778000139]
+                "CoordenadasCai": [4.555277778, -74.09527778000139]
               }
             ],
             "hospital": [
@@ -10366,21 +10381,21 @@
                 "Dirección": "Carrera 5 Con Cl 6 Usme Centro",
                 "Teléfono": "7660381 - 7660060",
                 "Barrio": "",
-                "CoordenadasCai": [4.59301481000, -74.07589942000150]
+                "CoordenadasCai": [4.59301481, -74.0758994200015]
               },
               {
                 "Nombre": "CAI SANTA MARTA",
                 "Dirección": "Cr 1 B-Bis 68b-54 Sur Este",
                 "Teléfono": "9119763",
                 "Barrio": "",
-                "CoordenadasCai": [4.53944444400, -74.11277778000147]
+                "CoordenadasCai": [4.539444444, -74.11277778000147]
               },
               {
                 "Nombre": "CAI SANTA LIBRADA",
                 "Dirección": "Calle 75 Sur # 1d-12 Sur",
                 "Teléfono": "9119660",
                 "Barrio": "",
-                "CoordenadasCai": [4.51527777800, -74.11666667000148]
+                "CoordenadasCai": [4.515277778, -74.11666667000148]
               }
             ],
             "hospital": [
@@ -11054,7 +11069,7 @@
                 "Dirección": "Carrera 123 # 64-65",
                 "Teléfono": "4422228",
                 "Barrio": "",
-                "CoordenadasCai": [4.71500000000, -74.14138889000197]
+                "CoordenadasCai": [4.715, -74.14138889000197]
               }
             ],
             "hospital": [
@@ -11368,7 +11383,8 @@
                 "Barrio": "LA ESMERALDA",
                 "CoordenadasCai": [4.646207001153015, -74.09065100074241]
               }
-            ]
+            ],
+            "hospital": []
           },
           {
             "LOCALIDADES": "LOS MARTIRES",
@@ -11460,7 +11476,8 @@
                 "Barrio": "RESTREPO OCCIDENTAL",
                 "CoordenadasCai": [4.589397001071574, -74.10476500140305]
               }
-            ]
+            ],
+            "hospital": []
           },
           {
             "LOCALIDADES": "PUENTE ARANDA",
@@ -11774,7 +11791,7 @@
                 "Dirección": "Carrera 73 # 63A-12",
                 "Teléfono": "7754486",
                 "Barrio": "",
-                "CoordenadasCai": [4.58611111100, -74.169722220001170]
+                "CoordenadasCai": [4.586111111, -74.16972222000117]
               }
             ],
             "hospital": [
@@ -11851,6 +11868,7 @@
             "Total": "1",
             "Categorizacion": "green",
             "CoordenadasUpz": [4.0266666666667, -74.245],
+            "cai": [],
             "hospital": [
               {
                 "Nombre__1": "Centro de Salud San Juan de Sumapaz",
@@ -11873,13 +11891,12 @@
           }
         ],
         "TotalRobos": 108785
-
       },
 
       {
         "año": "2022",
         "totalCais": 155,
-        "totalhospitales":102,
+        "totalhospitales": 102,
         "centrosEnLocalidades": [
           {
             "LOCALIDADES": "USAQUÉN",
@@ -12291,7 +12308,7 @@
                 "Dirección": "Carrera 2A # 38-20 Sur",
                 "Teléfono": "2077934",
                 "Barrio": "",
-                "CoordenadasCai": [4.55527777800, -74.09527778000139]
+                "CoordenadasCai": [4.555277778, -74.09527778000139]
               }
             ],
             "hospital": [
@@ -12391,21 +12408,21 @@
                 "Dirección": "Carrera 5 Con Cl 6 Usme Centro",
                 "Teléfono": "7660381 - 7660060",
                 "Barrio": "",
-                "CoordenadasCai": [4.59301481000, -74.07589942000150]
+                "CoordenadasCai": [4.59301481, -74.0758994200015]
               },
               {
                 "Nombre": "CAI SANTA MARTA",
                 "Dirección": "Cr 1 B-Bis 68b-54 Sur Este",
                 "Teléfono": "9119763",
                 "Barrio": "",
-                "CoordenadasCai": [4.53944444400, -74.11277778000147]
+                "CoordenadasCai": [4.539444444, -74.11277778000147]
               },
               {
                 "Nombre": "CAI SANTA LIBRADA",
                 "Dirección": "Calle 75 Sur # 1d-12 Sur",
                 "Teléfono": "9119660",
                 "Barrio": "",
-                "CoordenadasCai": [4.51527777800, -74.11666667000148]
+                "CoordenadasCai": [4.515277778, -74.11666667000148]
               }
             ],
             "hospital": [
@@ -13086,7 +13103,7 @@
                 "Dirección": "Carrera 123 # 64-65",
                 "Teléfono": "4422228",
                 "Barrio": "",
-                "CoordenadasCai": [4.71500000000, -74.14138889000197]
+                "CoordenadasCai": [4.715, -74.14138889000197]
               }
             ],
             "hospital": [
@@ -13400,7 +13417,8 @@
                 "Barrio": "LA ESMERALDA",
                 "CoordenadasCai": [4.646207001153015, -74.09065100074241]
               }
-            ]
+            ],
+            "hospital": []
           },
           {
             "LOCALIDADES": "LOS MARTIRES",
@@ -13492,7 +13510,8 @@
                 "Barrio": "RESTREPO OCCIDENTAL",
                 "CoordenadasCai": [4.589397001071574, -74.10476500140305]
               }
-            ]
+            ],
+            "hospital": []
           },
           {
             "LOCALIDADES": "PUENTE ARANDA",
@@ -13806,7 +13825,7 @@
                 "Dirección": "Carrera 73 # 63A-12",
                 "Teléfono": "7754486",
                 "Barrio": "",
-                "CoordenadasCai": [4.58611111100, -74.169722220001170]
+                "CoordenadasCai": [4.586111111, -74.16972222000117]
               }
             ],
             "hospital": [
@@ -13883,6 +13902,7 @@
             "Total": "0",
             "Categorizacion": "green",
             "CoordenadasUpz": [4.0266666666667, -74.245],
+            "cai": [],
             "hospital": [
               {
                 "Nombre__1": "Centro de Salud San Juan de Sumapaz",
@@ -13905,13 +13925,12 @@
           }
         ],
         "TotalRobos": 137132
-
       },
 
       {
         "año": "2023",
         "totalCais": 155,
-        "totalhospitales":109,
+        "totalhospitales": 109,
         "centrosEnLocalidades": [
           {
             "LOCALIDADES": "USAQUÉN",
@@ -14329,7 +14348,7 @@
                 "Dirección": "Carrera 2A # 38-20 Sur",
                 "Teléfono": "2077934",
                 "Barrio": "",
-                "CoordenadasCai": [4.55527777800, -74.09527778000139]
+                "CoordenadasCai": [4.555277778, -74.09527778000139]
               }
             ],
             "hospital": [
@@ -14435,21 +14454,21 @@
                 "Dirección": "Carrera 5 Con Cl 6 Usme Centro",
                 "Teléfono": "7660381 - 7660060",
                 "Barrio": "",
-                "CoordenadasCai": [4.59301481000, -74.07589942000150]
+                "CoordenadasCai": [4.59301481, -74.0758994200015]
               },
               {
                 "Nombre": "CAI SANTA MARTA",
                 "Dirección": "Cr 1 B-Bis 68b-54 Sur Este",
                 "Teléfono": "9119763",
                 "Barrio": "",
-                "CoordenadasCai": [4.53944444400, -74.11277778000147]
+                "CoordenadasCai": [4.539444444, -74.11277778000147]
               },
               {
                 "Nombre": "CAI SANTA LIBRADA",
                 "Dirección": "Calle 75 Sur # 1d-12 Sur",
                 "Teléfono": "9119660",
                 "Barrio": "",
-                "CoordenadasCai": [4.51527777800, -74.11666667000148]
+                "CoordenadasCai": [4.515277778, -74.11666667000148]
               }
             ],
             "hospital": [
@@ -15148,7 +15167,7 @@
                 "Dirección": "Carrera 123 # 64-65",
                 "Teléfono": "4422228",
                 "Barrio": "",
-                "CoordenadasCai": [4.71500000000, -74.14138889000197]
+                "CoordenadasCai": [4.715, -74.14138889000197]
               }
             ],
             "hospital": [
@@ -15462,7 +15481,8 @@
                 "Barrio": "LA ESMERALDA",
                 "CoordenadasCai": [4.646207001153015, -74.09065100074241]
               }
-            ]
+            ],
+            "hospital": []
           },
           {
             "LOCALIDADES": "LOS MARTIRES",
@@ -15876,7 +15896,7 @@
                 "Dirección": "Carrera 73 # 63A-12",
                 "Teléfono": "7754486",
                 "Barrio": "",
-                "CoordenadasCai": [4.58611111100, -74.169722220001170]
+                "CoordenadasCai": [4.586111111, -74.16972222000117]
               }
             ],
             "hospital": [
@@ -15959,6 +15979,7 @@
             "Total": "2",
             "Categorizacion": "green",
             "CoordenadasUpz": [4.0266666666667, -74.245],
+            "cai": [],
             "hospital": [
               {
                 "Nombre__1": "Centro de Salud San Juan de Sumapaz",
@@ -15981,7 +16002,6 @@
           }
         ],
         "TotalRobos": 96653
-
       }
     ],
     "totalRobos": 425701

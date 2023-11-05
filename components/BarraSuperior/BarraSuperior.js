@@ -10,13 +10,13 @@ export default function BarraSuperior({
   setLocalidad,
   candidatura,
   añoSeleccionado,
+  setCondicionSeleccion,
 }) {
   // se creo esta variable por que no se actualiza el estado en la primera carga por ende no deja que el usuario busque
   var valor = "";
   const [change, setChange] = useState();
   const [value, setValue] = useState("");
   const [items, setItems] = useState([]);
-  const [validador, setValidador] = useState(false);
 
   let dataSelected;
 
@@ -44,7 +44,7 @@ export default function BarraSuperior({
   }
 
   // busca dentro de la data lo que escribio el usuario
-  const search = (event) => {
+  const search = () => {
     const coincidencias = [];
     for (let i = 0; i < dataSelected[0].centrosEnLocalidades.length; i++) {
       const texto = dataSelected[0].centrosEnLocalidades[i].LOCALIDADES;
@@ -61,13 +61,14 @@ export default function BarraSuperior({
     setItems(coincidencias !== "" && coincidencias);
   };
 
+  setCondicionSeleccion(dataSelected.length <= 0 ? true : false);
+
   return (
     <div className="flex items-center justify-between mx-10 mb-10">
       <div className="flex items-center flex-col ml-5">
         <Logo />
         <span>Security Map</span>
       </div>
-      {dataSelected.length <= 0 && <span className="text-red-600">por favor seleccione una fecha</span>}
       <label className="flex items-center bg-white rounded-2xl h-[3em]">
         <AutoComplete
           disabled={dataSelected.length > 0 ? false : true}

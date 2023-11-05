@@ -27,6 +27,15 @@ body {
 
 
 
+.miBoton.active {
+  background-color: rgb(241 245 249 / var(--tw-bg-opacity)); /* Cambia el color de fondo cuando el botón está activo */
+}
+
+.buttonyear {
+  @apply cursor-pointer hover:text-slate-900 rounded-lg hover:bg-slate-100 px-3 py-2 miBoton;
+}
+
+
 /* estilos del autocompletar */
 
 .p-autocomplete {
