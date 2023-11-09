@@ -159,7 +159,7 @@ export default function Home() {
           />
         </div>
       </div>
-      <Inferior añoSelect={añoSelect} localidad={localidad}/>
+      <Inferior añoSelect={añoSelect} localidad={localidad} candidatura={candidatura}/>
 
       <div className="bg-slate-400 flex items-center gap-10 justify-evenly my-10">
         <div className="flex flex-col my-5">
