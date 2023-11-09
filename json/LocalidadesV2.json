@@ -6,6 +6,7 @@
     "años": [
       {
         "año": "2016",
+        "añoCandidatura": 1,
         "totalCais": 154,
         "totalhospitales": 83,
         "centrosEnLocalidades": [
@@ -1917,6 +1918,7 @@
       },
       {
         "año": "2017",
+        "añoCandidatura": 2,
         "totalCais": 154,
         "totalhospitales": 83,
         "centrosEnLocalidades": [
@@ -3828,6 +3830,7 @@
       },
       {
         "año": "2018",
+        "añoCandidatura": 3,
         "totalCais": 154,
         "totalhospitales": 94,
         "centrosEnLocalidades": [
@@ -5806,6 +5809,7 @@
       },
       {
         "año": "2019",
+        "añoCandidatura": 4,
         "totalCais": 154,
         "totalhospitales": 102,
         "centrosEnLocalidades": [
@@ -7841,6 +7845,7 @@
     "años": [
       {
         "año": "2020",
+        "añoCandidatura": 1,
         "totalCais": 154,
         "totalhospitales": 102,
         "centrosEnLocalidades": [
@@ -9868,6 +9873,7 @@
 
       {
         "año": "2021",
+        "añoCandidatura": 2,
         "totalCais": 154,
         "totalhospitales": 102,
         "centrosEnLocalidades": [
@@ -11895,6 +11901,7 @@
 
       {
         "año": "2022",
+        "añoCandidatura": 3,
         "totalCais": 155,
         "totalhospitales": 102,
         "centrosEnLocalidades": [
@@ -13929,6 +13936,7 @@
 
       {
         "año": "2023",
+        "añoCandidatura": 4,
         "totalCais": 155,
         "totalhospitales": 109,
         "centrosEnLocalidades": [
