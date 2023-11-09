@@ -18,7 +18,7 @@
             "ArmaBlanca": "609",
             "Escopolamina": "0",
             "NoReportados": "29",
-            "Total": "2.983",
+            "Total": 2.983,
             "Categorizacion": "yellow",
             "CoordenadasUpz": [4.7485, -74.0312],
             "cai": [
@@ -145,7 +145,7 @@
             "ArmaBlanca": "541",
             "Escopolamina": "0",
             "NoReportados": "100",
-            "Total": "3.167",
+            "Total": 3.167,
             "Categorizacion": "yellow",
             "CoordenadasUpz": [4.6569, -74.0467],
             "cai": [
@@ -236,7 +236,7 @@
             "ArmaBlanca": "607",
             "Escopolamina": "0",
             "NoReportados": "95",
-            "Total": "2.105",
+            "Total": 2.105,
             "Categorizacion": "yellow",
             "CoordenadasUpz": [4.5963, -74.0298],
             "cai": [
@@ -349,7 +349,7 @@
             "ArmaBlanca": "335",
             "Escopolamina": "0",
             "NoReportados": "93",
-            "Total": "1.207",
+            "Total": 1.207,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.5463000000000005, -74.0883],
             "cai": [
@@ -464,7 +464,7 @@
             "ArmaBlanca": "209",
             "Escopolamina": "0",
             "NoReportados": "151",
-            "Total": "795",
+            "Total": 795,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.4766, -74.1033],
             "cai": [
@@ -572,7 +572,7 @@
             "ArmaBlanca": "234",
             "Escopolamina": "0",
             "NoReportados": "93",
-            "Total": "953",
+            "Total": 953,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.5875, -74.1407],
             "cai": [
@@ -627,7 +627,7 @@
             "ArmaBlanca": "355",
             "Escopolamina": "0",
             "NoReportados": "61",
-            "Total": "1.591",
+            "Total": 1.591,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.6305, -74.1945],
             "cai": [
@@ -748,7 +748,7 @@
             "ArmaBlanca": "966",
             "Escopolamina": "0",
             "NoReportados": "52",
-            "Total": "4.295",
+            "Total": 4.295,
             "Categorizacion": "red",
             "CoordenadasUpz": [4.6268, -74.1573],
             "cai": [
@@ -953,7 +953,7 @@
             "ArmaBlanca": "380",
             "Escopolamina": "0",
             "NoReportados": "76",
-            "Total": "2.179",
+            "Total": 2.179,
             "Categorizacion": "yellow",
             "CoordenadasUpz": [4.6832, -74.1479],
             "cai": [
@@ -1061,7 +1061,7 @@
             "ArmaBlanca": "664",
             "Escopolamina": "0",
             "NoReportados": "37",
-            "Total": "3.421",
+            "Total": 3.421,
             "Categorizacion": "yellow",
             "CoordenadasUpz": [4.7071000000000005, -74.1072],
             "cai": [
@@ -1204,7 +1204,7 @@
             "ArmaBlanca": "819",
             "Escopolamina": "0",
             "NoReportados": "42",
-            "Total": "3.913",
+            "Total": 3.913,
             "Categorizacion": "red",
             "CoordenadasUpz": [4.7652, -74.0824],
             "cai": [
@@ -1329,7 +1329,7 @@
             "ArmaBlanca": "323",
             "Escopolamina": "0",
             "NoReportados": "70",
-            "Total": "1.686",
+            "Total": 1.686,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.6664, -74.084],
             "cai": [
@@ -1386,7 +1386,7 @@
             "ArmaBlanca": "424",
             "Escopolamina": "0",
             "NoReportados": "95",
-            "Total": "2.357",
+            "Total": 2.357,
             "Categorizacion": "yellow",
             "CoordenadasUpz": [4.6448, -74.0938],
             "cai": [
@@ -1443,7 +1443,7 @@
             "ArmaBlanca": "342",
             "Escopolamina": "0",
             "NoReportados": "177",
-            "Total": "1.393",
+            "Total": 1.393,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.603, -74.0913],
             "cai": [
@@ -1486,7 +1486,7 @@
             "ArmaBlanca": "214",
             "Escopolamina": "0",
             "NoReportados": "148",
-            "Total": "909",
+            "Total": 909,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.5486, -74.1009],
             "cai": [
@@ -1529,7 +1529,7 @@
             "ArmaBlanca": "271",
             "Escopolamina": "0",
             "NoReportados": "78",
-            "Total": "1.573",
+            "Total": 1.573,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.6149000000000004, -74.1227],
             "cai": [
@@ -1611,7 +1611,7 @@
             "ArmaBlanca": "60",
             "Escopolamina": "0",
             "NoReportados": "116",
-            "Total": "500",
+            "Total": 500,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.5939, -74.0739],
             "cai": [
@@ -1653,7 +1653,7 @@
             "ArmaBlanca": "519",
             "Escopolamina": "0",
             "NoReportados": "8",
-            "Total": "1.832",
+            "Total": 1.832,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.5653, -74.1164],
             "cai": [
@@ -1749,7 +1749,7 @@
             "ArmaBlanca": "340",
             "Escopolamina": "0",
             "NoReportados": "108",
-            "Total": "1.091",
+            "Total": 1.091,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.5066, -74.1539],
             "cai": [
@@ -1889,7 +1889,7 @@
             "ArmaBlanca": "0",
             "Escopolamina": "0",
             "NoReportados": "0",
-            "Total": "0",
+            "Total": 0,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.0266666666667, -74.245],
             "cai": [],
@@ -1910,7 +1910,7 @@
             "ArmaBlanca": "0",
             "Escopolamina": "0",
             "NoReportados": "0",
-            "Total": "0",
+            "Total": 0,
             "Categorizacion": "green"
           }
         ],
@@ -1930,7 +1930,7 @@
             "ArmaBlanca": "1.468",
             "Escopolamina": "0",
             "NoReportados": "78",
-            "Total": "5.868",
+            "Total": 5.868,
             "Categorizacion": "yellow",
             "CoordenadasUpz": [4.7485, -74.0312],
             "cai": [
@@ -2057,7 +2057,7 @@
             "ArmaBlanca": "1.635",
             "Escopolamina": "184",
             "NoReportados": "39",
-            "Total": "6.919",
+            "Total": 6.919,
             "Categorizacion": "yellow",
             "CoordenadasUpz": [4.6569, -74.0467],
             "cai": [
@@ -2148,7 +2148,7 @@
             "ArmaBlanca": "1.748",
             "Escopolamina": "0",
             "NoReportados": "77",
-            "Total": "5.213",
+            "Total": 5.213,
             "Categorizacion": "yellow",
             "CoordenadasUpz": [4.5963, -74.0298],
             "cai": [
@@ -2261,7 +2261,7 @@
             "ArmaBlanca": "803",
             "Escopolamina": "0",
             "NoReportados": "75",
-            "Total": "1.998",
+            "Total": 1.998,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.5463000000000005, -74.0883],
             "cai": [
@@ -2376,7 +2376,7 @@
             "ArmaBlanca": "476",
             "Escopolamina": "0",
             "NoReportados": "90",
-            "Total": "1.325",
+            "Total": 1.325,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.4766, -74.1033],
             "cai": [
@@ -2484,7 +2484,7 @@
             "ArmaBlanca": "514",
             "Escopolamina": "0",
             "NoReportados": "84",
-            "Total": "1.546",
+            "Total": 1.546,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.5875, -74.1407],
             "cai": [
@@ -2539,7 +2539,7 @@
             "ArmaBlanca": "1.045",
             "Escopolamina": "0",
             "NoReportados": "83",
-            "Total": "2.991",
+            "Total": 2.991,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.6305, -74.1945],
             "cai": [
@@ -2660,7 +2660,7 @@
             "ArmaBlanca": "2.902",
             "Escopolamina": "77",
             "NoReportados": "84",
-            "Total": "8.432",
+            "Total": 8.432,
             "Categorizacion": "red",
             "CoordenadasUpz": [4.6268, -74.1573],
             "cai": [
@@ -2865,7 +2865,7 @@
             "ArmaBlanca": "1.145",
             "Escopolamina": "0",
             "NoReportados": "67",
-            "Total": "4.430",
+            "Total": 4.431,
             "Categorizacion": "yellow",
             "CoordenadasUpz": [4.6832, -74.1479],
             "cai": [
@@ -2973,7 +2973,7 @@
             "ArmaBlanca": "2.090",
             "Escopolamina": "0",
             "NoReportados": "83",
-            "Total": "6.981",
+            "Total": 6.981,
             "Categorizacion": "yellow",
             "CoordenadasUpz": [4.7071000000000005, -74.1072],
             "cai": [
@@ -3116,7 +3116,7 @@
             "ArmaBlanca": "2.285",
             "Escopolamina": "0",
             "NoReportados": "77",
-            "Total": "8.084",
+            "Total": 8.084,
             "Categorizacion": "red",
             "CoordenadasUpz": [4.7652, -74.0824],
             "cai": [
@@ -3241,7 +3241,7 @@
             "ArmaBlanca": "959",
             "Escopolamina": "0",
             "NoReportados": "54",
-            "Total": "3.483",
+            "Total": 3.483,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.6664, -74.084],
             "cai": [
@@ -3298,7 +3298,7 @@
             "ArmaBlanca": "1.386",
             "Escopolamina": "0",
             "NoReportados": "107",
-            "Total": "5.190",
+            "Total": 5.191,
             "Categorizacion": "yellow",
             "CoordenadasUpz": [4.6448, -74.0938],
             "cai": [
@@ -3355,7 +3355,7 @@
             "ArmaBlanca": "843",
             "Escopolamina": "0",
             "NoReportados": "114",
-            "Total": "3.110",
+            "Total": 3.111,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.603, -74.0913],
             "cai": [
@@ -3398,7 +3398,7 @@
             "ArmaBlanca": "487",
             "Escopolamina": "0",
             "NoReportados": "102",
-            "Total": "1.565",
+            "Total": 1.565,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.5486, -74.1009],
             "cai": [
@@ -3441,7 +3441,7 @@
             "ArmaBlanca": "1.001",
             "Escopolamina": "0",
             "NoReportados": "77",
-            "Total": "3.637",
+            "Total": 3.637,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.6149000000000004, -74.1227],
             "cai": [
@@ -3523,7 +3523,7 @@
             "ArmaBlanca": "329",
             "Escopolamina": "0",
             "NoReportados": "110",
-            "Total": "1.135",
+            "Total": 1.135,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.5939, -74.0739],
             "cai": [
@@ -3565,7 +3565,7 @@
             "ArmaBlanca": "1.052",
             "Escopolamina": "0",
             "NoReportados": "69",
-            "Total": "2.662",
+            "Total": 2.662,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.5653, -74.1164],
             "cai": [
@@ -3661,7 +3661,7 @@
             "ArmaBlanca": "1.010",
             "Escopolamina": "0",
             "NoReportados": "85",
-            "Total": "2.335",
+            "Total": 2.335,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.5066, -74.1539],
             "cai": [
@@ -3801,7 +3801,7 @@
             "ArmaBlanca": "0",
             "Escopolamina": "0",
             "NoReportados": "0",
-            "Total": "1",
+            "Total": 1,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.0266666666667, -74.245],
             "cai": [],
@@ -3822,7 +3822,7 @@
             "ArmaBlanca": "0",
             "Escopolamina": "0",
             "NoReportados": "0",
-            "Total": "0",
+            "Total": 0,
             "Categorizacion": "green"
           }
         ],
@@ -3842,7 +3842,7 @@
             "ArmaBlanca": "1.752",
             "Escopolamina": "0",
             "NoReportados": "35",
-            "Total": "9.117",
+            "Total": 9.117,
             "Categorizacion": "yellow",
             "CoordenadasUpz": [4.7485, -74.0312],
             "cai": [
@@ -3969,7 +3969,7 @@
             "ArmaBlanca": "1.696",
             "Escopolamina": "199",
             "NoReportados": "26",
-            "Total": "10.204",
+            "Total": 10.204,
             "Categorizacion": "yellow",
             "CoordenadasUpz": [4.6569, -74.0467],
             "cai": [
@@ -4060,7 +4060,7 @@
             "ArmaBlanca": "1.961",
             "Escopolamina": "0",
             "NoReportados": "68",
-            "Total": "7.228",
+            "Total": 7.228,
             "Categorizacion": "yellow",
             "CoordenadasUpz": [4.5963, -74.0298],
             "cai": [
@@ -4179,7 +4179,7 @@
             "ArmaBlanca": "819",
             "Escopolamina": "0",
             "NoReportados": "73",
-            "Total": "2.343",
+            "Total": 2.343,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.5463000000000005, -74.0883],
             "cai": [
@@ -4300,7 +4300,7 @@
             "ArmaBlanca": "626",
             "Escopolamina": "0",
             "NoReportados": "74",
-            "Total": "1.854",
+            "Total": 1.854,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.4766, -74.1033],
             "cai": [
@@ -4408,7 +4408,7 @@
             "ArmaBlanca": "653",
             "Escopolamina": "0",
             "NoReportados": "99",
-            "Total": "2.181",
+            "Total": 2.181,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.5875, -74.1407],
             "cai": [
@@ -4475,7 +4475,7 @@
             "ArmaBlanca": "1.317",
             "Escopolamina": "0",
             "NoReportados": "29",
-            "Total": "4.340",
+            "Total": 4.341,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.6305, -74.1945],
             "cai": [
@@ -4596,7 +4596,7 @@
             "ArmaBlanca": "3.215",
             "Escopolamina": "109",
             "NoReportados": "38",
-            "Total": "11.081",
+            "Total": 11.081,
             "Categorizacion": "red",
             "CoordenadasUpz": [4.6268, -74.1573],
             "cai": [
@@ -4807,7 +4807,7 @@
             "ArmaBlanca": "1.390",
             "Escopolamina": "0",
             "NoReportados": "36",
-            "Total": "6.204",
+            "Total": 6.204,
             "Categorizacion": "yellow",
             "CoordenadasUpz": [4.6832, -74.1479],
             "cai": [
@@ -4915,7 +4915,7 @@
             "ArmaBlanca": "2.481",
             "Escopolamina": "0",
             "NoReportados": "63",
-            "Total": "9.667",
+            "Total": 9.667,
             "Categorizacion": "yellow",
             "CoordenadasUpz": [4.7071000000000005, -74.1072],
             "cai": [
@@ -5064,7 +5064,7 @@
             "ArmaBlanca": "2.517",
             "Escopolamina": "0",
             "NoReportados": "48",
-            "Total": "10.971",
+            "Total": 10.971,
             "Categorizacion": "red",
             "CoordenadasUpz": [4.7652, -74.0824],
             "cai": [
@@ -5201,7 +5201,7 @@
             "ArmaBlanca": "954",
             "Escopolamina": "0",
             "NoReportados": "32",
-            "Total": "4.572",
+            "Total": 4.572,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.6664, -74.084],
             "cai": [
@@ -5258,7 +5258,7 @@
             "ArmaBlanca": "1.452",
             "Escopolamina": "0",
             "NoReportados": "66",
-            "Total": "6.976",
+            "Total": 6.976,
             "Categorizacion": "yellow",
             "CoordenadasUpz": [4.6448, -74.0938],
             "cai": [
@@ -5315,7 +5315,7 @@
             "ArmaBlanca": "1.042",
             "Escopolamina": "0",
             "NoReportados": "60",
-            "Total": "4.412",
+            "Total": 4.412,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.603, -74.0913],
             "cai": [
@@ -5365,7 +5365,7 @@
             "ArmaBlanca": "510",
             "Escopolamina": "0",
             "NoReportados": "90",
-            "Total": "1.804",
+            "Total": 1.804,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.5486, -74.1009],
             "cai": [
@@ -5408,7 +5408,7 @@
             "ArmaBlanca": "1.131",
             "Escopolamina": "0",
             "NoReportados": "38",
-            "Total": "4.761",
+            "Total": 4.761,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.6149000000000004, -74.1227],
             "cai": [
@@ -5490,7 +5490,7 @@
             "ArmaBlanca": "287",
             "Escopolamina": "0",
             "NoReportados": "108",
-            "Total": "1.573",
+            "Total": 1.573,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.5939, -74.0739],
             "cai": [
@@ -5532,7 +5532,7 @@
             "ArmaBlanca": "1.058",
             "Escopolamina": "0",
             "NoReportados": "55",
-            "Total": "3.347",
+            "Total": 3.347,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.5653, -74.1164],
             "cai": [
@@ -5634,7 +5634,7 @@
             "ArmaBlanca": "1.250",
             "Escopolamina": "0",
             "NoReportados": "19",
-            "Total": "3.305",
+            "Total": 3.305,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.5066, -74.1539],
             "cai": [
@@ -5780,7 +5780,7 @@
             "ArmaBlanca": "0",
             "Escopolamina": "0",
             "NoReportados": "0",
-            "Total": "3",
+            "Total": 3,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.0266666666667, -74.245],
             "cai": [],
@@ -5801,7 +5801,7 @@
             "ArmaBlanca": "0",
             "Escopolamina": "0",
             "NoReportados": "0",
-            "Total": "0",
+            "Total": 0,
             "Categorizacion": "green"
           }
         ],
@@ -5821,7 +5821,7 @@
             "ArmaBlanca": "2.220",
             "Escopolamina": "11",
             "NoReportados": "53",
-            "Total": "10.806",
+            "Total": 10.806,
             "Categorizacion": "yellow",
             "CoordenadasUpz": [4.7485, -74.0312],
             "cai": [
@@ -5948,7 +5948,7 @@
             "ArmaBlanca": "2.445",
             "Escopolamina": "320",
             "NoReportados": "1",
-            "Total": "13.551",
+            "Total": 13.551,
             "Categorizacion": "red",
             "CoordenadasUpz": [4.6569, -74.0467],
             "cai": [
@@ -6039,7 +6039,7 @@
             "ArmaBlanca": "2.210",
             "Escopolamina": "0",
             "NoReportados": "71",
-            "Total": "8.099",
+            "Total": 8.099,
             "Categorizacion": "yellow",
             "CoordenadasUpz": [4.5963, -74.0298],
             "cai": [
@@ -6158,7 +6158,7 @@
             "ArmaBlanca": "1.064",
             "Escopolamina": "0",
             "NoReportados": "59",
-            "Total": "2.857",
+            "Total": 2.857,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.5463000000000005, -74.0883],
             "cai": [
@@ -6279,7 +6279,7 @@
             "ArmaBlanca": "801",
             "Escopolamina": "0",
             "NoReportados": "91",
-            "Total": "2.294",
+            "Total": 2.294,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.4766, -74.1033],
             "cai": [
@@ -6387,7 +6387,7 @@
             "ArmaBlanca": "829",
             "Escopolamina": "0",
             "NoReportados": "79",
-            "Total": "2.551",
+            "Total": 2.551,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.5875, -74.1407],
             "cai": [
@@ -6460,7 +6460,7 @@
             "ArmaBlanca": "1.628",
             "Escopolamina": "0",
             "NoReportados": "36",
-            "Total": "5.225",
+            "Total": 5.225,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.6305, -74.1945],
             "cai": [
@@ -6587,7 +6587,7 @@
             "ArmaBlanca": "3.888",
             "Escopolamina": "183",
             "NoReportados": "17",
-            "Total": "13.044",
+            "Total": 13.044,
             "Categorizacion": "red",
             "CoordenadasUpz": [4.6268, -74.1573],
             "cai": [
@@ -6810,7 +6810,7 @@
             "ArmaBlanca": "1.783",
             "Escopolamina": "0",
             "NoReportados": "55",
-            "Total": "7.803",
+            "Total": 7.803,
             "Categorizacion": "yellow",
             "CoordenadasUpz": [4.6832, -74.1479],
             "cai": [
@@ -6918,7 +6918,7 @@
             "ArmaBlanca": "3.142",
             "Escopolamina": "0",
             "NoReportados": "65",
-            "Total": "11.535",
+            "Total": 11.535,
             "Categorizacion": "yellow",
             "CoordenadasUpz": [4.7071000000000005, -74.1072],
             "cai": [
@@ -7079,7 +7079,7 @@
             "ArmaBlanca": "3.117",
             "Escopolamina": "0",
             "NoReportados": "65",
-            "Total": "12.708",
+            "Total": 12.708,
             "Categorizacion": "yellow",
             "CoordenadasUpz": [4.7652, -74.0824],
             "cai": [
@@ -7222,7 +7222,7 @@
             "ArmaBlanca": "1.300",
             "Escopolamina": "0",
             "NoReportados": "43",
-            "Total": "5.432",
+            "Total": 5.432,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.6664, -74.084],
             "cai": [
@@ -7279,7 +7279,7 @@
             "ArmaBlanca": "401",
             "Escopolamina": "1.859",
             "NoReportados": "44",
-            "Total": "8.132",
+            "Total": 8.132,
             "Categorizacion": "yellow",
             "CoordenadasUpz": [4.6448, -74.0938],
             "cai": [
@@ -7336,7 +7336,7 @@
             "ArmaBlanca": "1.363",
             "Escopolamina": "11",
             "NoReportados": "109",
-            "Total": "5.493",
+            "Total": 5.493,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.603, -74.0913],
             "cai": [
@@ -7386,7 +7386,7 @@
             "ArmaBlanca": "638",
             "Escopolamina": "0",
             "NoReportados": "126",
-            "Total": "2.420",
+            "Total": 2.421,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.5486, -74.1009],
             "cai": [
@@ -7429,7 +7429,7 @@
             "ArmaBlanca": "1.322",
             "Escopolamina": "0",
             "NoReportados": "38",
-            "Total": "5.804",
+            "Total": 5.804,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.6149000000000004, -74.1227],
             "cai": [
@@ -7511,7 +7511,7 @@
             "ArmaBlanca": "367",
             "Escopolamina": "0",
             "NoReportados": "106",
-            "Total": "1.844",
+            "Total": 1.844,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.5939, -74.0739],
             "cai": [
@@ -7553,7 +7553,7 @@
             "ArmaBlanca": "1.321",
             "Escopolamina": "0",
             "NoReportados": "55",
-            "Total": "3.995",
+            "Total": 3.995,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.5653, -74.1164],
             "cai": [
@@ -7661,7 +7661,7 @@
             "ArmaBlanca": "1.628",
             "Escopolamina": "0",
             "NoReportados": "36",
-            "Total": "4.194",
+            "Total": 4.194,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.5066, -74.1539],
             "cai": [
@@ -7807,7 +7807,7 @@
             "ArmaBlanca": "0",
             "Escopolamina": "0",
             "NoReportados": "0",
-            "Total": "0",
+            "Total": 0,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.0266666666667, -74.245],
             "cai": [],
@@ -7828,7 +7828,7 @@
             "ArmaBlanca": "0",
             "Escopolamina": "0",
             "NoReportados": "0",
-            "Total": "11",
+            "Total": 11,
             "Categorizacion": "green"
           }
         ],
@@ -7857,7 +7857,7 @@
             "ArmaBlanca": "1.171",
             "Escopolamina": "0",
             "NoReportados": "55",
-            "Total": "6.144",
+            "Total": 6.144,
             "Categorizacion": "yellow",
             "CoordenadasUpz": [4.7485, -74.0312],
             "cai": [
@@ -7984,7 +7984,7 @@
             "ArmaBlanca": "931",
             "Escopolamina": "141",
             "NoReportados": "49",
-            "Total": "5.369",
+            "Total": 5.369,
             "Categorizacion": "yellow",
             "CoordenadasUpz": [4.6569, -74.0467],
             "cai": [
@@ -8075,7 +8075,7 @@
             "ArmaBlanca": "1.134",
             "Escopolamina": "0",
             "NoReportados": "102",
-            "Total": "3.921",
+            "Total": 3.921,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.5963, -74.0298],
             "cai": [
@@ -8194,7 +8194,7 @@
             "ArmaBlanca": "966",
             "Escopolamina": "0",
             "NoReportados": "72",
-            "Total": "2.566",
+            "Total": 2.566,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.5463000000000005, -74.0883],
             "cai": [
@@ -8315,7 +8315,7 @@
             "ArmaBlanca": "650",
             "Escopolamina": "0",
             "NoReportados": "73",
-            "Total": "1.884",
+            "Total": 1.884,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.4766, -74.1033],
             "cai": [
@@ -8423,7 +8423,7 @@
             "ArmaBlanca": "543",
             "Escopolamina": "0",
             "NoReportados": "75",
-            "Total": "1.905",
+            "Total": 1.905,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.5875, -74.1407],
             "cai": [
@@ -8496,7 +8496,7 @@
             "ArmaBlanca": "1.332",
             "Escopolamina": "0",
             "NoReportados": "30",
-            "Total": "4.516",
+            "Total": 4.516,
             "Categorizacion": "yellow",
             "CoordenadasUpz": [4.6305, -74.1945],
             "cai": [
@@ -8623,7 +8623,7 @@
             "ArmaBlanca": "2.720",
             "Escopolamina": "28",
             "NoReportados": "53",
-            "Total": "9.546",
+            "Total": 9.546,
             "Categorizacion": "red",
             "CoordenadasUpz": [4.6268, -74.1573],
             "cai": [
@@ -8846,7 +8846,7 @@
             "ArmaBlanca": "1.215",
             "Escopolamina": "0",
             "NoReportados": "37",
-            "Total": "5.305",
+            "Total": 5.305,
             "Categorizacion": "yellow",
             "CoordenadasUpz": [4.6832, -74.1479],
             "cai": [
@@ -8954,7 +8954,7 @@
             "ArmaBlanca": "2.161",
             "Escopolamina": "0",
             "NoReportados": "45",
-            "Total": "9.006",
+            "Total": 9.006,
             "Categorizacion": "red",
             "CoordenadasUpz": [4.7071000000000005, -74.1072],
             "cai": [
@@ -9115,7 +9115,7 @@
             "ArmaBlanca": "2.034",
             "Escopolamina": "0",
             "NoReportados": "68",
-            "Total": "8.818",
+            "Total": 8.818,
             "Categorizacion": "red",
             "CoordenadasUpz": [4.7652, -74.0824],
             "cai": [
@@ -9258,7 +9258,7 @@
             "ArmaBlanca": "728",
             "Escopolamina": "0",
             "NoReportados": "51",
-            "Total": "3.279",
+            "Total": 3.279,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.6664, -74.084],
             "cai": [
@@ -9315,7 +9315,7 @@
             "ArmaBlanca": "910",
             "Escopolamina": "59",
             "NoReportados": "68",
-            "Total": "3.931",
+            "Total": 3.931,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.6448, -74.0938],
             "cai": [
@@ -9372,7 +9372,7 @@
             "ArmaBlanca": "838",
             "Escopolamina": "0",
             "NoReportados": "109",
-            "Total": "3.362",
+            "Total": 3.362,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.603, -74.0913],
             "cai": [
@@ -9422,7 +9422,7 @@
             "ArmaBlanca": "511",
             "Escopolamina": "0",
             "NoReportados": "102",
-            "Total": "1.909",
+            "Total": 1.909,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.5486, -74.1009],
             "cai": [
@@ -9465,7 +9465,7 @@
             "ArmaBlanca": "972",
             "Escopolamina": "0",
             "NoReportados": "24",
-            "Total": "4.257",
+            "Total": 4.257,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.6149000000000004, -74.1227],
             "cai": [
@@ -9547,7 +9547,7 @@
             "ArmaBlanca": "97",
             "Escopolamina": "0",
             "NoReportados": "128",
-            "Total": "781",
+            "Total": 781,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.5939, -74.0739],
             "cai": [
@@ -9589,7 +9589,7 @@
             "ArmaBlanca": "898",
             "Escopolamina": "0",
             "NoReportados": "87",
-            "Total": "2.990",
+            "Total": 2.991,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.5653, -74.1164],
             "cai": [
@@ -9697,7 +9697,7 @@
             "ArmaBlanca": "1.290",
             "Escopolamina": "0",
             "NoReportados": "34",
-            "Total": "3.633",
+            "Total": 3.633,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.5066, -74.1539],
             "cai": [
@@ -9843,7 +9843,7 @@
             "ArmaBlanca": "0",
             "Escopolamina": "0",
             "NoReportados": "0",
-            "Total": "2",
+            "Total": 2,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.0266666666667, -74.245],
             "cai": [],
@@ -9864,7 +9864,7 @@
             "ArmaBlanca": "0",
             "Escopolamina": "0",
             "NoReportados": "0",
-            "Total": "7",
+            "Total": 7,
             "Categorizacion": "green"
           }
         ],
@@ -9885,7 +9885,7 @@
             "ArmaBlanca": "1.410",
             "Escopolamina": "69",
             "NoReportados": "128",
-            "Total": "7.734",
+            "Total": 7.734,
             "Categorizacion": "yellow",
             "CoordenadasUpz": [4.7485, -74.0312],
             "cai": [
@@ -10012,7 +10012,7 @@
             "ArmaBlanca": "1.443",
             "Escopolamina": "313",
             "NoReportados": "138",
-            "Total": "8.424",
+            "Total": 8.424,
             "Categorizacion": "yellow",
             "CoordenadasUpz": [4.6569, -74.0467],
             "cai": [
@@ -10103,7 +10103,7 @@
             "ArmaBlanca": "1.405",
             "Escopolamina": "0",
             "NoReportados": "161",
-            "Total": "4.813",
+            "Total": 4.813,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.5963, -74.0298],
             "cai": [
@@ -10222,7 +10222,7 @@
             "ArmaBlanca": "1.155",
             "Escopolamina": "0",
             "NoReportados": "109",
-            "Total": "3.305",
+            "Total": 3.305,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.5463000000000005, -74.0883],
             "cai": [
@@ -10343,7 +10343,7 @@
             "ArmaBlanca": "817",
             "Escopolamina": "0",
             "NoReportados": "86",
-            "Total": "2.340",
+            "Total": 2.341,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.4766, -74.1033],
             "cai": [
@@ -10451,7 +10451,7 @@
             "ArmaBlanca": "754",
             "Escopolamina": "0",
             "NoReportados": "147",
-            "Total": "2.426",
+            "Total": 2.426,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.5875, -74.1407],
             "cai": [
@@ -10524,7 +10524,7 @@
             "ArmaBlanca": "1.844",
             "Escopolamina": "0",
             "NoReportados": "124",
-            "Total": "6.205",
+            "Total": 6.205,
             "Categorizacion": "yellow",
             "CoordenadasUpz": [4.6305, -74.1945],
             "cai": [
@@ -10651,7 +10651,7 @@
             "ArmaBlanca": "3.165",
             "Escopolamina": "97",
             "NoReportados": "218",
-            "Total": "11.981",
+            "Total": 11.981,
             "Categorizacion": "red",
             "CoordenadasUpz": [4.6268, -74.1573],
             "cai": [
@@ -10874,7 +10874,7 @@
             "ArmaBlanca": "1.661",
             "Escopolamina": "0",
             "NoReportados": "198",
-            "Total": "7.013",
+            "Total": 7.013,
             "Categorizacion": "yellow",
             "CoordenadasUpz": [4.6832, -74.1479],
             "cai": [
@@ -10982,7 +10982,7 @@
             "ArmaBlanca": "3.021",
             "Escopolamina": "0",
             "NoReportados": "258",
-            "Total": "11.734",
+            "Total": 11.734,
             "Categorizacion": "red",
             "CoordenadasUpz": [4.7071000000000005, -74.1072],
             "cai": [
@@ -11143,7 +11143,7 @@
             "ArmaBlanca": "2.620",
             "Escopolamina": "62",
             "NoReportados": "189",
-            "Total": "10.897",
+            "Total": 10.897,
             "Categorizacion": "red",
             "CoordenadasUpz": [4.7652, -74.0824],
             "cai": [
@@ -11286,7 +11286,7 @@
             "ArmaBlanca": "1.023",
             "Escopolamina": "0",
             "NoReportados": "124",
-            "Total": "4.264",
+            "Total": 4.264,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.6664, -74.084],
             "cai": [
@@ -11343,7 +11343,7 @@
             "ArmaBlanca": "1.272",
             "Escopolamina": "44",
             "NoReportados": "127",
-            "Total": "5.296",
+            "Total": 5.296,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.6448, -74.0938],
             "cai": [
@@ -11400,7 +11400,7 @@
             "ArmaBlanca": "1.062",
             "Escopolamina": "12",
             "NoReportados": "140",
-            "Total": "4.364",
+            "Total": 4.364,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.603, -74.0913],
             "cai": [
@@ -11450,7 +11450,7 @@
             "ArmaBlanca": "707",
             "Escopolamina": "0",
             "NoReportados": "152",
-            "Total": "2.482",
+            "Total": 2.482,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.5486, -74.1009],
             "cai": [
@@ -11493,7 +11493,7 @@
             "ArmaBlanca": "1.268",
             "Escopolamina": "0",
             "NoReportados": "146",
-            "Total": "5.468",
+            "Total": 5.468,
             "Categorizacion": "yellow",
             "CoordenadasUpz": [4.6149000000000004, -74.1227],
             "cai": [
@@ -11575,7 +11575,7 @@
             "ArmaBlanca": "229",
             "Escopolamina": "0",
             "NoReportados": "120",
-            "Total": "973",
+            "Total": 973,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.5939, -74.0739],
             "cai": [
@@ -11617,7 +11617,7 @@
             "ArmaBlanca": "1.258",
             "Escopolamina": "0",
             "NoReportados": "117",
-            "Total": "4.020",
+            "Total": 4.021,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.5653, -74.1164],
             "cai": [
@@ -11725,7 +11725,7 @@
             "ArmaBlanca": "1.745",
             "Escopolamina": "0",
             "NoReportados": "129",
-            "Total": "5.000",
+            "Total": 5.001,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.5066, -74.1539],
             "cai": [
@@ -11871,7 +11871,7 @@
             "ArmaBlanca": "0",
             "Escopolamina": "0",
             "NoReportados": "0",
-            "Total": "1",
+            "Total": 1,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.0266666666667, -74.245],
             "cai": [],
@@ -11892,7 +11892,7 @@
             "ArmaBlanca": "0",
             "Escopolamina": "0",
             "NoReportados": "31",
-            "Total": "45",
+            "Total": 45,
             "Categorizacion": "green"
           }
         ],
@@ -11913,7 +11913,7 @@
             "ArmaBlanca": "1.460",
             "Escopolamina": "0",
             "NoReportados": "225",
-            "Total": "9.314",
+            "Total": 9.314,
             "Categorizacion": "yellow",
             "CoordenadasUpz": [4.7485, -74.0312],
             "cai": [
@@ -12040,7 +12040,7 @@
             "ArmaBlanca": "1.737",
             "Escopolamina": "308",
             "NoReportados": "169",
-            "Total": "11.994",
+            "Total": 11.994,
             "Categorizacion": "yellow",
             "CoordenadasUpz": [4.6569, -74.0467],
             "cai": [
@@ -12131,7 +12131,7 @@
             "ArmaBlanca": "1.714",
             "Escopolamina": "0",
             "NoReportados": "192",
-            "Total": "7.639",
+            "Total": 7.639,
             "Categorizacion": "yellow",
             "CoordenadasUpz": [4.5963, -74.0298],
             "cai": [
@@ -12250,7 +12250,7 @@
             "ArmaBlanca": "1.023",
             "Escopolamina": "0",
             "NoReportados": "115",
-            "Total": "3.671",
+            "Total": 3.671,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.5463000000000005, -74.0883],
             "cai": [
@@ -12371,7 +12371,7 @@
             "ArmaBlanca": "840",
             "Escopolamina": "0",
             "NoReportados": "122",
-            "Total": "3.027",
+            "Total": 3.027,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.4766, -74.1033],
             "cai": [
@@ -12479,7 +12479,7 @@
             "ArmaBlanca": "619",
             "Escopolamina": "0",
             "NoReportados": "147",
-            "Total": "2.766",
+            "Total": 2.766,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.5875, -74.1407],
             "cai": [
@@ -12552,7 +12552,7 @@
             "ArmaBlanca": "1.678",
             "Escopolamina": "0",
             "NoReportados": "138",
-            "Total": "6.824",
+            "Total": 6.824,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.6305, -74.1945],
             "cai": [
@@ -12686,7 +12686,7 @@
             "ArmaBlanca": "3.148",
             "Escopolamina": "45",
             "NoReportados": "291",
-            "Total": "14.539",
+            "Total": 14.539,
             "Categorizacion": "red",
             "CoordenadasUpz": [4.6268, -74.1573],
             "cai": [
@@ -12909,7 +12909,7 @@
             "ArmaBlanca": "1.836",
             "Escopolamina": "0",
             "NoReportados": "226",
-            "Total": "9.190",
+            "Total": 9.191,
             "Categorizacion": "yellow",
             "CoordenadasUpz": [4.6832, -74.1479],
             "cai": [
@@ -13017,7 +13017,7 @@
             "ArmaBlanca": "2.797",
             "Escopolamina": "25",
             "NoReportados": "303",
-            "Total": "13.702",
+            "Total": 13.702,
             "Categorizacion": "yellow",
             "CoordenadasUpz": [4.7071000000000005, -74.1072],
             "cai": [
@@ -13178,7 +13178,7 @@
             "ArmaBlanca": "2.909",
             "Escopolamina": "12",
             "NoReportados": "245",
-            "Total": "14.544",
+            "Total": 14.544,
             "Categorizacion": "red",
             "CoordenadasUpz": [4.7652, -74.0824],
             "cai": [
@@ -13321,7 +13321,7 @@
             "ArmaBlanca": "934",
             "Escopolamina": "0",
             "NoReportados": "160",
-            "Total": "5.402",
+            "Total": 5.402,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.6664, -74.084],
             "cai": [
@@ -13378,7 +13378,7 @@
             "ArmaBlanca": "1.364",
             "Escopolamina": "27",
             "NoReportados": "176",
-            "Total": "7.959",
+            "Total": 7.959,
             "Categorizacion": "yellow",
             "CoordenadasUpz": [4.6448, -74.0938],
             "cai": [
@@ -13435,7 +13435,7 @@
             "ArmaBlanca": "1.035",
             "Escopolamina": "0",
             "NoReportados": "172",
-            "Total": "5.721",
+            "Total": 5.721,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.603, -74.0913],
             "cai": [
@@ -13485,7 +13485,7 @@
             "ArmaBlanca": "606",
             "Escopolamina": "0",
             "NoReportados": "129",
-            "Total": "2.744",
+            "Total": 2.744,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.5486, -74.1009],
             "cai": [
@@ -13528,7 +13528,7 @@
             "ArmaBlanca": "1.180",
             "Escopolamina": "0",
             "NoReportados": "178",
-            "Total": "6.691",
+            "Total": 6.691,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.6149000000000004, -74.1227],
             "cai": [
@@ -13610,7 +13610,7 @@
             "ArmaBlanca": "207",
             "Escopolamina": "0",
             "NoReportados": "96",
-            "Total": "1.327",
+            "Total": 1.327,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.5939, -74.0739],
             "cai": [
@@ -13652,7 +13652,7 @@
             "ArmaBlanca": "1.162",
             "Escopolamina": "0",
             "NoReportados": "145",
-            "Total": "4.488",
+            "Total": 4.488,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.5653, -74.1164],
             "cai": [
@@ -13760,7 +13760,7 @@
             "ArmaBlanca": "1.626",
             "Escopolamina": "0",
             "NoReportados": "135",
-            "Total": "5.576",
+            "Total": 5.576,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.5066, -74.1539],
             "cai": [
@@ -13906,7 +13906,7 @@
             "ArmaBlanca": "0",
             "Escopolamina": "0",
             "NoReportados": "0",
-            "Total": "0",
+            "Total": 0,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.0266666666667, -74.245],
             "cai": [],
@@ -13927,7 +13927,7 @@
             "ArmaBlanca": "0",
             "Escopolamina": "0",
             "NoReportados": "0",
-            "Total": "14",
+            "Total": 14,
             "Categorizacion": "green"
           }
         ],
@@ -13948,7 +13948,7 @@
             "ArmaBlanca": "855",
             "Escopolamina": "22",
             "NoReportados": "145",
-            "Total": "5.746",
+            "Total": 5.746,
             "Categorizacion": "yellow",
             "CoordenadasUpz": [4.7485, -74.0312],
             "cai": [
@@ -14081,7 +14081,7 @@
             "ArmaBlanca": "854",
             "Escopolamina": "192",
             "NoReportados": "141",
-            "Total": "6.857",
+            "Total": 6.857,
             "Categorizacion": "yellow",
             "CoordenadasUpz": [4.6569, -74.0467],
             "cai": [
@@ -14172,7 +14172,7 @@
             "ArmaBlanca": "1.080",
             "Escopolamina": "11",
             "NoReportados": "142",
-            "Total": "5.220",
+            "Total": 5.221,
             "Categorizacion": "yellow",
             "CoordenadasUpz": [4.5963, -74.0298],
             "cai": [
@@ -14291,7 +14291,7 @@
             "ArmaBlanca": "564",
             "Escopolamina": "0",
             "NoReportados": "89",
-            "Total": "2.152",
+            "Total": 2.152,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.5463000000000005, -74.0883],
             "cai": [
@@ -14418,7 +14418,7 @@
             "ArmaBlanca": "574",
             "Escopolamina": "0",
             "NoReportados": "65",
-            "Total": "2.060",
+            "Total": 2.061,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.4766, -74.1033],
             "cai": [
@@ -14532,7 +14532,7 @@
             "ArmaBlanca": "302",
             "Escopolamina": "0",
             "NoReportados": "75",
-            "Total": "1.282",
+            "Total": 1.282,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.5875, -74.1407],
             "cai": [
@@ -14611,7 +14611,7 @@
             "ArmaBlanca": "929",
             "Escopolamina": "0",
             "NoReportados": "114",
-            "Total": "3.582",
+            "Total": 3.582,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.6305, -74.1945],
             "cai": [
@@ -14751,7 +14751,7 @@
             "ArmaBlanca": "2.457",
             "Escopolamina": "88",
             "NoReportados": "180",
-            "Total": "10.703",
+            "Total": 10.703,
             "Categorizacion": "red",
             "CoordenadasUpz": [4.6268, -74.1573],
             "cai": [
@@ -14974,7 +14974,7 @@
             "ArmaBlanca": "1.059",
             "Escopolamina": "23",
             "NoReportados": "139",
-            "Total": "5.760",
+            "Total": 5.761,
             "Categorizacion": "yellow",
             "CoordenadasUpz": [4.6832, -74.1479],
             "cai": [
@@ -15082,7 +15082,7 @@
             "ArmaBlanca": "1.946",
             "Escopolamina": "40",
             "NoReportados": "213",
-            "Total": "9.952",
+            "Total": 9.952,
             "Categorizacion": "red",
             "CoordenadasUpz": [4.7071000000000005, -74.1072],
             "cai": [
@@ -15243,7 +15243,7 @@
             "ArmaBlanca": "2.024",
             "Escopolamina": "52",
             "NoReportados": "234",
-            "Total": "11.039",
+            "Total": 11.039,
             "Categorizacion": "red",
             "CoordenadasUpz": [4.7652, -74.0824],
             "cai": [
@@ -15386,7 +15386,7 @@
             "ArmaBlanca": "839",
             "Escopolamina": "0",
             "NoReportados": "149",
-            "Total": "4.958",
+            "Total": 4.958,
             "Categorizacion": "yellow",
             "CoordenadasUpz": [4.6664, -74.084],
             "cai": [
@@ -15443,7 +15443,7 @@
             "ArmaBlanca": "1.145",
             "Escopolamina": "90",
             "NoReportados": "130",
-            "Total": "6.936",
+            "Total": 6.936,
             "Categorizacion": "yellow",
             "CoordenadasUpz": [4.6448, -74.0938],
             "cai": [
@@ -15500,7 +15500,7 @@
             "ArmaBlanca": "900",
             "Escopolamina": "0",
             "NoReportados": "202",
-            "Total": "4.585",
+            "Total": 4.585,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.603, -74.0913],
             "cai": [
@@ -15550,7 +15550,7 @@
             "ArmaBlanca": "403",
             "Escopolamina": "0",
             "NoReportados": "121",
-            "Total": "2.097",
+            "Total": 2.097,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.5486, -74.1009],
             "cai": [
@@ -15600,7 +15600,7 @@
             "ArmaBlanca": "991",
             "Escopolamina": "0",
             "NoReportados": "126",
-            "Total": "5.334",
+            "Total": 5.334,
             "Categorizacion": "yellow",
             "CoordenadasUpz": [4.6149000000000004, -74.1227],
             "cai": [
@@ -15682,7 +15682,7 @@
             "ArmaBlanca": "140",
             "Escopolamina": "0",
             "NoReportados": "77",
-            "Total": "792",
+            "Total": 792,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.5939, -74.0739],
             "cai": [
@@ -15724,7 +15724,7 @@
             "ArmaBlanca": "901",
             "Escopolamina": "0",
             "NoReportados": "86",
-            "Total": "3.542",
+            "Total": 3.542,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.5653, -74.1164],
             "cai": [
@@ -15832,7 +15832,7 @@
             "ArmaBlanca": "1.160",
             "Escopolamina": "0",
             "NoReportados": "122",
-            "Total": "4.022",
+            "Total": 4.022,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.5066, -74.1539],
             "cai": [
@@ -15984,7 +15984,7 @@
             "ArmaBlanca": "0",
             "Escopolamina": "0",
             "NoReportados": "0",
-            "Total": "2",
+            "Total": 2,
             "Categorizacion": "green",
             "CoordenadasUpz": [4.0266666666667, -74.245],
             "cai": [],
@@ -16005,7 +16005,7 @@
             "ArmaBlanca": "0",
             "Escopolamina": "0",
             "NoReportados": "0",
-            "Total": "32",
+            "Total": 32,
             "Categorizacion": "green"
           }
         ],

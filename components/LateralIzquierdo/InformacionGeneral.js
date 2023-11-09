@@ -81,7 +81,7 @@ export default function InformacionGeneral({
             </div>
           </div>
           <div className="flex flex-col mb-5">
-            <span className="text-xl text-center"> Hurto no especificado:</span>
+            <span className="text-xl text-center"> Hurtos no especificado:</span>
             <div className="bg-slate-400 rounded-xl flex justify-center py-1 font-semibold">
               <span className="text-xl ">{data[0].NoReportados}</span>
             </div>
