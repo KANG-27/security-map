@@ -91,14 +91,14 @@ export default function Home() {
             className="candidatura buttonyear"
             onClick={() => setCandidatura(0)}
           >
-            Candidatura 1
+            Alcaldia Enrique Peñalosa
           </button>
           <button
             data-value={"CandidaturaUno"}
             className="candidatura buttonyear"
             onClick={() => setCandidatura(1)}
           >
-            Candidatura 2
+            Alcaldia Claudia Lopez
           </button>
         </div>
         <div className="flex gap-10 mb-10">

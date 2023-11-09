@@ -49,7 +49,7 @@ export default function GraficoBarrasAño() {
     <div className="flex flex-col w-full">
       <div className="flex mt-10 w-full">
         <div className="flex flex-col ml-10">
-          <span>Candidatura Uno</span>
+          <span>Alcaldia Enrique Peñalosa</span>
           <div className="mt-10">
             <div>
               <span>Cantidad de hurtos por año</span>
@@ -72,7 +72,7 @@ export default function GraficoBarrasAño() {
               </VictoryChart>
             </div>
             <div>
-              <span>Cantidad de CAIS</span>
+              <span>Cantidad de CAI</span>
               <VictoryPie
                 data={dataCais.CandidaturaUno}
                 colorScale={[
@@ -116,7 +116,7 @@ export default function GraficoBarrasAño() {
           </div>
         </div>
         <div className="flex flex-col ml-10">
-          <span>Candidatura Dos</span>
+          <span>Alcaldia Claudia Lopez</span>
           <div className="mt-10">
             <div>
               <span>Cantidad de hurtos por año</span>
@@ -139,7 +139,7 @@ export default function GraficoBarrasAño() {
               </VictoryChart>
             </div>
             <div>
-              <span>Cantidad de CAIS</span>
+              <span>Cantidad de CAI</span>
               <VictoryPie
                 data={dataCais.CandidaturaDos}
                 colorScale={[

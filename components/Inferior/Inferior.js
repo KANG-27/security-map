@@ -65,7 +65,7 @@ export default function Inferior({
                   Casos contundentes: {data[0].Contundentes}
                 </span>
                 <span className="text-sm">
-                  Cantidad de CAIS: {data[0].cai.length}
+                  Cantidad de CAI: {data[0].cai.length}
                 </span>
                 <span className="text-sm">
                   Cantidad de Hospitales: {data[0].hospital.length}
@@ -106,7 +106,7 @@ export default function Inferior({
                   Total de robos: {LocalidadesV2.CandidaturaUno.totalRobos+LocalidadesV2.CandidaturaDos.totalRobos}
                 </span>
                 <span className="text-sm">
-                  Total de CAIS: {LocalidadesV2.CandidaturaUno.totalCais+LocalidadesV2.CandidaturaDos.totalCais}
+                  Total de CAI: {LocalidadesV2.CandidaturaUno.totalCais+LocalidadesV2.CandidaturaDos.totalCais}
                 </span>
                 <span className="text-sm">
                   Total de Hospitales: {LocalidadesV2.CandidaturaUno.totalHospitales+LocalidadesV2.CandidaturaDos.totalHospitales}
