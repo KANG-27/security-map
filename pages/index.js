@@ -3,8 +3,8 @@ import Map from "../components/Map/index";
 import BarraSuperior from "@/components/BarraSuperior/BarraSuperior";
 import LocalidadesV2 from "json/LocalidadesV2.json";
 
-import Inferior from "@/components/LateralIzquierdo/InformacionGeneral";
 import { LateralIzquierdo } from "@/components/LateralIzquierdo/LateralIzquierdo";
+import { Inferior } from "@/components/Inferior/Inferior";
 
 export default function Home() {
   const [cordenada, setCordenada] = useState([4.60971, -74.08175]);
@@ -159,6 +159,7 @@ export default function Home() {
           />
         </div>
       </div>
+      <Inferior añoSelect={añoSelect} localidad={localidad}/>
 
       <div className="bg-slate-400 flex items-center gap-10 justify-evenly my-10">
         <div className="flex flex-col my-5">
