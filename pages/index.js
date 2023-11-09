@@ -1,8 +1,10 @@
 import { useEffect, useState } from "react";
 import Map from "../components/Map/index";
 import BarraSuperior from "@/components/BarraSuperior/BarraSuperior";
-import Inferior from "@/components/Inferior/Inferior";
 import LocalidadesV2 from "json/LocalidadesV2.json";
+
+import Inferior from "@/components/LateralIzquierdo/InformacionGeneral";
+import { LateralIzquierdo } from "@/components/LateralIzquierdo/LateralIzquierdo";
 
 export default function Home() {
   const [cordenada, setCordenada] = useState([4.60971, -74.08175]);
@@ -14,6 +16,31 @@ export default function Home() {
   const [candidatura, setCandidatura] = useState(1);
   const [añoSeleccionado, setAñoSeleccionado] = useState();
   const [condicionSeleccion, setCondicionSeleccion] = useState(false);
+
+  let data;
+  let añoSelect;
+
+  if (localidad != undefined) {
+    if (candidatura == 0) {
+      añoSelect = LocalidadesV2.CandidaturaUno.años.filter(
+        (x) => x.año == añoSeleccionado
+      );
+      data =
+        añoSelect.length > 0 &&
+        añoSelect[0].centrosEnLocalidades.filter(
+          (x) => x.LOCALIDADES == localidad
+        );
+    } else {
+      añoSelect = LocalidadesV2.CandidaturaDos.años.filter(
+        (x) => x.año == añoSeleccionado
+      );
+      data =
+        añoSelect.length > 0 &&
+        añoSelect[0].centrosEnLocalidades.filter(
+          (x) => x.LOCALIDADES == localidad
+        );
+    }
+  }
 
   useEffect(() => {
     const buttonsCandidatura = document.querySelectorAll(".candidatura");
@@ -50,14 +77,13 @@ export default function Home() {
 
     function disableButtons() {
       buttons.forEach((button) => {
-        setAñoSeleccionado("")
-        setCordenada([4.60971, -74.08175])
-        setColor("transparent")
+        setAñoSeleccionado("");
+        setCordenada([4.60971, -74.08175]);
+        setColor("transparent");
         button.classList.remove("active");
       });
     }
   }, [candidatura, condicionSeleccion]);
-
 
   return (
     <div className="mt-10">
@@ -84,63 +110,55 @@ export default function Home() {
           )}
         </div>
       </div>
-      <div className="flex flex-col items-center">
-        <div className="flex gap-10 mb-10">
-          <button
-            data-value={"CandidaturaUno"}
-            className="candidatura buttonyear"
-            onClick={() => setCandidatura(0)}
-          >
-            Alcaldia Enrique Peñalosa
-          </button>
-          <button
-            data-value={"CandidaturaUno"}
-            className="candidatura buttonyear"
-            onClick={() => setCandidatura(1)}
-          >
-            Alcaldia Claudia Lopez
-          </button>
-        </div>
-        <div className="flex gap-10 mb-10">
-          {candidatura == 0
-            ? LocalidadesV2.CandidaturaUno.años.map((e) => (
-                <>
-                  <button
-                    data-value={e.año.toString()}
-                    class="miBoton buttonyear"
-                    onClick={() => setAñoSeleccionado(e.año)}
-                  >
-                    {e.año}
-                  </button>
-                </>
-              ))
-            : LocalidadesV2.CandidaturaDos.años.map((e) => (
-                <>
-                  <button
-                    data-value={e.año.toString()}
-                    class="miBoton buttonyear"
-                    onClick={() => setAñoSeleccionado(e.año)}
-                  >
-                    {e.año}
-                  </button>
-                </>
-              ))}
-        </div>
-        <Map
-          cordenadas={cordenada}
-          zoom={zoom}
+      <div className="flex items-center">
+        <LateralIzquierdo
+          localidad={localidad}
           color={color}
-          localidades={localidad}
           candidatura={candidatura}
           añoSeleccionado={añoSeleccionado}
+          setAñoSeleccionado={setAñoSeleccionado}
+          setCandidatura={setCandidatura}
         />
+        <div className="flex flex-col w-full">
+          {localidad != undefined && añoSelect.length > 0 && (
+            <div className="flex justify-between mx-10 mb-5">
+              <span className="text-sm">
+                Esta zona es{" "}
+                <span
+                  className={
+                    color == "red"
+                      ? "text-red-600"
+                      : color == "yellow"
+                      ? "text-yellow-500"
+                      : "text-green-600"
+                  }
+                >
+                  {color == "red"
+                    ? " Peligrosa"
+                    : color === "yellow"
+                    ? "insegura"
+                    : "Segura"}
+                </span>{" "}
+              </span>
+
+              <span className="text-sm">
+                Cantidad de Hospitales: {data[0].hospital.length}
+              </span>
+              <span className="text-sm">
+                Cantidad de CAI: {data[0].cai.length}
+              </span>
+            </div>
+          )}
+          <Map
+            cordenadas={cordenada}
+            zoom={zoom}
+            color={color}
+            localidades={localidad}
+            candidatura={candidatura}
+            añoSeleccionado={añoSeleccionado}
+          />
+        </div>
       </div>
-      <Inferior
-        localidad={localidad}
-        color={color}
-        candidatura={candidatura}
-        añoSeleccionado={añoSeleccionado}
-      />
 
       <div className="bg-slate-400 flex items-center gap-10 justify-evenly my-10">
         <div className="flex flex-col my-5">
@@ -151,6 +169,7 @@ export default function Home() {
           <span className="text-xs flex  ">En colaboracion con :</span>
           <span className="text-xs flex  mt-3">Sebastian David Melo Diaz</span>
           <span className="text-xs flex  mt-3">Oscar Luiz Mendoza Ariza</span>
+          <span className="text-xs flex  mt-3">Sebastian Garcia Rivera</span>
         </div>
       </div>
     </div>

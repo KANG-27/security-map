@@ -69,6 +69,7 @@ export default function BarraSuperior({
         <Logo />
         <span>Security Map</span>
       </div>
+      <span>{value}</span>
       <label className="flex items-center bg-white rounded-2xl h-[3em]">
         <AutoComplete
           disabled={dataSelected.length > 0 ? false : true}
