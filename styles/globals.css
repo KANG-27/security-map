@@ -94,7 +94,15 @@ body {
 
 /* victory */
 
-.VictoryContainer{
-  width: 50%;
-  height: 50%;
+
+/* estilizar los tamaños de las graficas */
+
+.pie-total-hurtos-select .VictoryContainer{
+  width: 40%!important;
+  height: 40%!important;
+}
+
+.barras-laterales-selected .VictoryContainer svg{
+  height: revert-layer!important;
+  width: 100%!important;
 }
