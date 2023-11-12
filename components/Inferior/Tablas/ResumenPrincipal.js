@@ -2,9 +2,6 @@ import React from 'react'
 import LocalidadesV2 from "json/LocalidadesV2.json";
 import { Bar, VictoryBar, VictoryChart, VictoryLabel, VictoryPie, VictoryTooltip, } from 'victory';
 export const ResumenPrincipal = (años, locali, candi) => {
-  let cai_Enrique = LocalidadesV2.CandidaturaUno.totalCais;
-  let cai_Claudia = LocalidadesV2.CandidaturaDos.totalCais;
-  console.log();
   return (
     <div className='flex flex-col p-5 items-center gap-6'> 
       <span className='text-xl'>Total de cais en la alcaldia de:</span>
@@ -37,10 +34,10 @@ export const ResumenPrincipal = (años, locali, candi) => {
             <VictoryBar
               style={{ data: { fill: "#000000" } }}
               data={[
-                { x: new Date(LocalidadesV2.CandidaturaUno.años[0].año, 2, 2), y: LocalidadesV2.CandidaturaUno.años[0].totalCais },
-                { x: new Date(LocalidadesV2.CandidaturaUno.años[1].año, 2, 2), y: LocalidadesV2.CandidaturaUno.años[1].totalCais },
-                { x: new Date(LocalidadesV2.CandidaturaUno.años[2].año, 2, 2), y: LocalidadesV2.CandidaturaUno.años[2].totalCais },
-                { x: new Date(LocalidadesV2.CandidaturaUno.años[3].año, 2, 2), y: LocalidadesV2.CandidaturaUno.años[3].totalCais }
+                { x: new Date(LocalidadesV2.CandidaturaDos.años[0].año, 2, 2), y: LocalidadesV2.CandidaturaDos.años[1].totalCais },
+                { x: new Date(LocalidadesV2.CandidaturaDos.años[1].año, 2, 2), y: LocalidadesV2.CandidaturaDos.años[1].totalCais },
+                { x: new Date(LocalidadesV2.CandidaturaDos.años[2].año, 2, 2), y: LocalidadesV2.CandidaturaDos.años[2].totalCais },
+                { x: new Date(LocalidadesV2.CandidaturaDos.años[3].año, 2, 2), y: LocalidadesV2.CandidaturaDos.años[3].totalCais }
               ]}
               labels={({ datum }) => `CAI: ${datum.y}`}
               labelComponent={<VictoryTooltip />}
