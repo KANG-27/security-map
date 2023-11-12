@@ -64,11 +64,11 @@ export default function BarraSuperior({
   setCondicionSeleccion(dataSelected.length <= 0 ? true : false);
 
   return (
-    <div className="flex items-center justify-between mx-10 mb-10">
-      <div className="flex items-center flex-col ml-5">
+    <div className="flex items-center justify-between">
+      <a className="flex items-center flex-col ml-5" href="/">
         <Logo />
         <span>Security Map</span>
-      </div>
+      </a>
       <span>{value}</span>
       <label className="flex items-center bg-white rounded-2xl h-[3em]">
         <AutoComplete

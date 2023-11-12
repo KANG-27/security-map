@@ -99,74 +99,78 @@ export const ResumenSecundario = ({ añoSelect, localidad, candidatura }) => {
   return (
     <>
       {/* <span>claudia = {}</span> */}
-      <div className="mx-96 flex flex-col">
-        <div className="flex flex-col items-center">
-          <span>año candidatura:</span>
-          <span>{añoSelect[0].añoCandidatura}</span>
+      <div className="mx-20 flex flex-col items-center mt-5 gap-8">
+        <div className="flex items-center gap-2">
+          <span className="font-bold">AÑOS DE AlCALDIA: </span>
+          <span> {añoSelect[0].añoCandidatura}</span>
         </div>
-        <div className="pie-total-hurtos-select">
-          <span>Total de hurtos en las distintas alcaldias</span>
+        <div className="pie-total-hurtos-select flex flex-col gap-3 items-center">
+          <strong>Total de hurtos en las distintas alcaldias:</strong>
           <div className="flex justify-center">
             <VictoryPie
               data={resumenPie}
               colorScale={["grey", "darkcyan"]}
-              labels={({ datum }) =>
+              labels={({ datum }) => 
                 `Año candidatura ${añoSelect[0].añoCandidatura} de ${datum.u} Total de Robos: ${datum.y}`
               }
               labelComponent={<VictoryTooltip />}
               style={{
                 labels: {
-                  fontSize: 12,
+                  fontSize: 20,
                 },
               }}
             />
           </div>
-
-          <div className="flex justify-around mt-10">
+          <div className="flex gap-6">
             <div className="flex flex-col items-center">
-              <span>Cai candidatura Enrique</span>
+              <span>Cai de la alcaldia Enrique Peñalosa</span>
               <span>{candidaturaEnrique.cai.length}</span>
             </div>
             <div className="flex flex-col  items-center">
-              <span>Cai candidatura Claudia</span>
+              <span>Cai de la alcaldia Claudia Lopez</span>
               <span>{candidaturaCludia.cai.length}</span>
             </div>
           </div>
-          <div className="flex justify-around mb-10">
+          <div className="flex gap-6">
             <div className="flex flex-col  items-center">
-              <span>Hospitales candidatura Enrique</span>
+              <span>Hospitales de la alcaldia Enrique Peñalosa</span>
               <span>{candidaturaEnrique.hospital.length}</span>
             </div>
             <div className="flex flex-col items-center">
-              <span>Hospitales candidatura claudia</span>
+              <span>Hospitales de la alcaldia Claudia Lopez</span>
               <span>{candidaturaCludia.hospital.length}</span>
             </div>
           </div>
         </div>
-        <span>Tipo de hurtos</span>
-        <div className="flex w-full barras-laterales-selected">
-          <VictoryChart domainPadding={50}>
-            <VictoryBar
-              horizontal
-              data={resumenBarras.candidaturaEnrique}
-              x="quarter"
-              y="earnings"
-              labels={({ datum }) => ` ${datum.earnings}`}
-              textAnchor="middle"
-              style={{ fontSize: 18, fill: "black" }}
-            />
-          </VictoryChart>
-
-          <VictoryChart domainPadding={40}>
-            <VictoryBar
-              horizontal
-              data={resumenBarras.candidaturaClaudia}
-              x="quarter"
-              y="earnings"
-              labels={({ datum }) => ` ${datum.earnings}`}
-              textAnchor="middle"
-            />
-          </VictoryChart>
+        <span className="font-bold">Tipo de hurtos</span>
+        <div className="flex flex-col lg:flex-row items-center barras-laterales-selected">
+          <div className="flex flex-col items-center gap-1 lg::gap-3">
+            <span>Alcaldia Enrique Peñalosa</span>
+            <VictoryChart domainPadding={50}>
+              <VictoryBar
+                horizontal
+                data={resumenBarras.candidaturaEnrique}
+                x="quarter"
+                y="earnings"
+                labels={({ datum }) => ` ${datum.earnings}`}
+                textAnchor="middle"
+                style={{ fontSize: 18, fill: "black" }}
+              />
+            </VictoryChart>
+          </div>
+          <div className="flex flex-col items-center gap-1 lg:gap-3">
+            <span>Alcaldia Claudia Lopez</span>
+            <VictoryChart domainPadding={40}>
+              <VictoryBar
+                horizontal
+                data={resumenBarras.candidaturaClaudia}
+                x="quarter"
+                y="earnings"
+                labels={({ datum }) => ` ${datum.earnings}`}
+                textAnchor="middle"
+              />
+            </VictoryChart>
+          </div>
         </div>
       </div>
     </>

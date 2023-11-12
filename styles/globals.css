@@ -32,7 +32,7 @@ body {
 }
 
 .buttonyear {
-  @apply cursor-pointer hover:text-slate-900 rounded-lg hover:bg-slate-100 px-3 py-2 miBoton;
+  @apply cursor-pointer hover:text-slate-900 rounded-lg hover:bg-slate-100 px-3 py-2 miBoton border-2 border-solid border-slate-400;
 }
 
 
@@ -98,11 +98,11 @@ body {
 /* estilizar los tamaños de las graficas */
 
 .pie-total-hurtos-select .VictoryContainer{
-  width: 40%!important;
-  height: 40%!important;
+  width: 60%!important;
+  height: 60%!important;
 }
 
 .barras-laterales-selected .VictoryContainer svg{
   height: revert-layer!important;
-  width: 100%!important;
+  width: 550px !important;
 }

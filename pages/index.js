@@ -87,7 +87,7 @@ export default function Home() {
 
   return (
     <div className="mt-10">
-      <div className="mx-20">
+      <div className="mx-10 lg:mx-20 flex flex-col gap-6">
         <BarraSuperior
           setCordenada={setCordenada}
           setZoom={setZoom}
@@ -99,8 +99,8 @@ export default function Home() {
         />
         <div className="flex flex-col items-center mb-10">
           {condicionSeleccion && (
-            <div className="flex text-center">
-              <span class="material-symbols-outlined text-red-600 mr-5">
+            <div className="flex gap-5">
+              <span class="material-symbols-outlined text-red-600">
                 error
               </span>
               <span className="text-red-600">
@@ -110,7 +110,7 @@ export default function Home() {
           )}
         </div>
       </div>
-      <div className="flex items-center">
+      <div className="flex flex-col lg:flex-row items-center mx-10 lg:mx-20 gap-10">
         <LateralIzquierdo
           localidad={localidad}
           color={color}
@@ -119,10 +119,10 @@ export default function Home() {
           setAñoSeleccionado={setAñoSeleccionado}
           setCandidatura={setCandidatura}
         />
-        <div className="flex flex-col w-full">
+        <div className="flex flex-col w-full gap-20">
           {localidad != undefined && añoSelect.length > 0 && (
-            <div className="flex justify-between mx-10 mb-5">
-              <span className="text-sm">
+            <div className="flex justify-between mx-10">
+              <span className="text-base">
                 Esta zona es{" "}
                 <span
                   className={
@@ -141,10 +141,10 @@ export default function Home() {
                 </span>{" "}
               </span>
 
-              <span className="text-sm">
+              <span className="text-base">
                 Cantidad de Hospitales: {data[0].hospital.length}
               </span>
-              <span className="text-sm">
+              <span className="text-base">
                 Cantidad de CAI: {data[0].cai.length}
               </span>
             </div>
@@ -160,17 +160,16 @@ export default function Home() {
         </div>
       </div>
       <Inferior añoSelect={añoSelect} localidad={localidad} candidatura={candidatura}/>
-
       <div className="bg-slate-400 flex items-center gap-10 justify-evenly my-10">
-        <div className="flex flex-col my-5">
-          <span className="text-xs">Esta pagina fue creada por :</span>
-          <span className="text-xs  mt-3">Kevin Andres Niño Guerrero</span>
+        <div className="flex flex-col my-5 gap-3 text-sm">
+          <span>Esta pagina fue creada por :</span>
+          <span>Kevin Andres Niño Guerrero</span>
         </div>
-        <div className="flex flex-col my-5">
-          <span className="text-xs flex  ">En colaboracion con :</span>
-          <span className="text-xs flex  mt-3">Sebastian David Melo Diaz</span>
-          <span className="text-xs flex  mt-3">Oscar Luiz Mendoza Ariza</span>
-          <span className="text-xs flex  mt-3">Sebastian Garcia Rivera</span>
+        <div className="flex flex-col my-5 text-sm gap-3">
+          <span>En colaboracion con :</span>
+          <span>Sebastian David Melo Diaz</span>
+          <span>Oscar Luis Mendoza Ariza</span>
+          <span>Sebastian Garcia Rivera</span>
         </div>
       </div>
     </div>

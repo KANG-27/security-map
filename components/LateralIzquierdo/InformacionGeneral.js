@@ -33,83 +33,83 @@ export default function InformacionGeneral({
   return (
     <>
       {localidad != undefined && añoSelect.length > 0 ? (
-        <div className="flex flex-col w-full">
-          <div className="flex flex-col mb-5">
-            <span className="text-xl text-center"> Total de Hurtos:</span>
+        <div className="flex flex-col w-full gap-4">
+          <div className="flex flex-col gap-2">
+            <span className="text-lg text-center">Total de Hurtos:</span>
             <div className="bg-slate-400 rounded-xl flex justify-center py-1 font-semibold">
-              <span className="text-xl ">{data[0].Total}</span>
+              <span className="text-lg">{data[0].Total}</span>
             </div>
           </div>
-          <div className="flex flex-col mb-5">
-            <span className="text-xl text-center"> Hurtos sin arma:</span>
+          <div className="flex flex-col gap-2">
+            <span className="text-lg text-center">Hurtos sin arma:</span>
             <div className="bg-slate-400 rounded-xl flex justify-center py-1 font-semibold">
-              <span className="text-xl ">{data[0].SinArmas}</span>
+              <span className="text-lg">{data[0].SinArmas}</span>
             </div>
           </div>
-          <div className="flex flex-col mb-5">
-            <span className="text-xl text-center">
+          <div className="flex flex-col gap-2">
+            <span className="text-lg text-center">
               {" "}
               Hurtos con arma blanca:
             </span>
             <div className="bg-slate-400 rounded-xl flex justify-center py-1 font-semibold">
-              <span className="text-xl ">{data[0].ArmaBlanca}</span>
+              <span className="text-lg">{data[0].ArmaBlanca}</span>
             </div>
           </div>
-          <div className="flex flex-col mb-5">
-            <span className="text-xl text-center">
+          <div className="flex flex-col gap-2">
+            <span className="text-lg text-center">
               {" "}
               Hurtos con arma de fuego:
             </span>
             <div className="bg-slate-400 rounded-xl flex justify-center py-1 font-semibold">
-              <span className="text-xl ">{data[0].ArmaFuego}</span>
+              <span className="text-lg">{data[0].ArmaFuego}</span>
             </div>
           </div>
 
-          <div className="flex flex-col mb-5">
-            <span className="text-xl text-center">
+          <div className="flex flex-col gap-2">
+            <span className="text-lg text-center">
               {" "}
               Hurtos con escopolamina:
             </span>
             <div className="bg-slate-400 rounded-xl flex justify-center py-1 font-semibold">
-              <span className="text-xl ">{data[0].Escopolamina}</span>
+              <span className="text-lg">{data[0].Escopolamina}</span>
             </div>
           </div>
-          <div className="flex flex-col mb-5">
-            <span className="text-xl text-center"> Hurtos con armas contundentes:</span>
+          <div className="flex flex-col gap-2">
+            <span className="text-lg text-center"> Hurtos con armas contundentes:</span>
             <div className="bg-slate-400 rounded-xl flex justify-center py-1 font-semibold">
-              <span className="text-xl ">{data[0].Contundentes}</span>
+              <span className="text-lg">{data[0].Contundentes}</span>
             </div>
           </div>
-          <div className="flex flex-col mb-5">
-            <span className="text-xl text-center"> Hurtos no especificado:</span>
+          <div className="flex flex-col gap-2">
+            <span className="text-lg text-center"> Hurtos no especificado:</span>
             <div className="bg-slate-400 rounded-xl flex justify-center py-1 font-semibold">
-              <span className="text-xl ">{data[0].NoReportados}</span>
+              <span className="text-lg">{data[0].NoReportados}</span>
             </div>
           </div>
         </div>
       ) : (
-        <div>
-          <div className="flex flex-col mb-5">
-            <span className="text-xl text-center">Total Hurtos:</span>
-            <div className="bg-slate-400 rounded-xl flex justify-center py-5 font-semibold">
-              <span className="text-xl ">
+        <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-2">
+            <span className="text-lg text-center">Total Hurtos:</span>
+            <div className="bg-slate-400 rounded-xl flex justify-center py-4 font-semibold">
+              <span className="text-lg">
                 {LocalidadesV2.CandidaturaUno.totalRobos +
                   LocalidadesV2.CandidaturaDos.totalRobos}
               </span>
             </div>
           </div>
-          <div className="flex flex-col mb-5">
-            <span className="text-xl text-center">Total CAI:</span>
-            <div className="bg-slate-400 rounded-xl flex justify-center py-5 font-semibold">
-              <span className="text-xl ">
+          <div className="flex flex-col gap-2">
+            <span className="text-lg text-center">Total CAI:</span>
+            <div className="bg-slate-400 rounded-xl flex justify-center py-4 font-semibold">
+              <span className="text-lg">
                 {LocalidadesV2.CandidaturaDos.totalCais}
               </span>
             </div>
           </div>
-          <div className="flex flex-col mb-5">
-            <span className="text-xl text-center">Total Hospitales:</span>
-            <div className="bg-slate-400 rounded-xl flex justify-center py-5 font-semibold">
-              <span className="text-xl ">
+          <div className="flex flex-col gap-2">
+            <span className="text-lg text-center">Total Hospitales:</span>
+            <div className="bg-slate-400 rounded-xl flex justify-center py-4 font-semibold">
+              <span className="text-lg">
                 {LocalidadesV2.CandidaturaDos.totalHospitales}
               </span>
             </div>

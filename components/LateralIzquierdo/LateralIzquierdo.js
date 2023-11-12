@@ -11,30 +11,30 @@ export const LateralIzquierdo = ({
   setAñoSeleccionado,
 }) => {
   return (
-    <div className="mx-10">
-      <div className="flex gap-10 mb-10 justify-center">
+    <div className="flex flex-col gap-6 max-w-full">
+      <div className="flex gap-8 justify-center">
         <button
           data-value={"CandidaturaUno"}
-          className="candidatura buttonyear"
+          className="candidatura buttonyear text-md font-semibold"
           onClick={() => setCandidatura(0)}
         >
-          Alcaldia Enrique Peñaolsa
+          Alcaldia Enrique Peñalosa
         </button>
         <button
           data-value={"CandidaturaUno"}
-          className="candidatura buttonyear"
+          className="candidatura buttonyear text-md font-semibold"
           onClick={() => setCandidatura(1)}
         >
           Alcaldia Claudia Lopez
         </button>
       </div>
-      <div className="flex gap-10 mb-10">
+      <div className="flex gap-10 justify-center">
         {candidatura == 0
           ? LocalidadesV2.CandidaturaUno.años.map((e) => (
               <>
                 <button
                   data-value={e.año.toString()}
-                  class="miBoton buttonyear"
+                  class="miBoton buttonyear text-sm font-semibold"
                   onClick={() => setAñoSeleccionado(e.año)}
                 >
                   {e.año}
@@ -45,7 +45,7 @@ export const LateralIzquierdo = ({
               <>
                 <button
                   data-value={e.año.toString()}
-                  class="miBoton buttonyear"
+                  class="miBoton buttonyear text-sm font-semibold"
                   onClick={() => setAñoSeleccionado(e.año)}
                 >
                   {e.año}

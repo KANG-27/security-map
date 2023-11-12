@@ -8,7 +8,7 @@ export const Inferior = ({ localidad, añoSelect, candidatura }) => {
       {localidad != undefined && añoSelect.length > 0 ? (
         <ResumenSecundario localidad={localidad} añoSelect={añoSelect} candidatura={candidatura}/>
       ) : (
-        <ResumenPrincipal/>
+        <ResumenPrincipal localidad={localidad} añoSelect={añoSelect} candidatura={candidatura}/>
       )}
     </>
   );
