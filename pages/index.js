@@ -95,13 +95,15 @@ export default function Home() {
       />
       <div className="flex flex-col w-full">
 
-        <div className="mx-10 lg:mx-20 flex flex-col gap-6">
+        <div className=" flex flex-col gap-6">
           <BarraSuperior
             setCordenada={setCordenada}
             setZoom={setZoom}
             setColor={setColor}
             setLocalidad={setLocalidad}
             candidatura={candidatura}
+            localidad={localidad}
+            añoSelect={añoSelect}
             añoSeleccionado={añoSeleccionado}
             setAñoSeleccionado={setAñoSeleccionado}
             setCondicionSeleccion={setCondicionSeleccion}
@@ -119,7 +121,7 @@ export default function Home() {
             )}
           </div>
         </div>
-        <div className=" lg:flex-row items-center mx-10 lg:mx-20 gap-10">
+        <div className="lg:flex-row items-center mx-10 lg:mx-20 gap-10">
 
           <InformacionGeneral
             localidad={localidad}

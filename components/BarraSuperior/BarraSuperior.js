@@ -2,6 +2,7 @@ import Logo from "../Logo/Logo";
 import React, { FC, useEffect, useState } from "react";
 import LocalidadesV2 from "json/LocalidadesV2.json";
 import { AutoComplete } from "primereact/autocomplete";
+import Image from "next/image";
 
 export default function BarraSuperior({
   setCordenada,
@@ -9,8 +10,10 @@ export default function BarraSuperior({
   setColor,
   setLocalidad,
   candidatura,
+  localidad,
   añoSeleccionado,
   setCondicionSeleccion,
+  añoSelect,
   setAñoSeleccionado
 }) {
   // se creo esta variable por que no se actualiza el estado en la primera carga por ende no deja que el usuario busque
@@ -65,33 +68,54 @@ export default function BarraSuperior({
   setCondicionSeleccion(dataSelected.length <= 0 ? true : false);
 
   return (
-    <div className="flex items-center justify-between mt-5">
-      <div className="flex items-center">
-        <span>Año de candidatura</span>
-        <div className="flex gap-10 justify-center ml-5">
-          {candidatura == 0
-            ? LocalidadesV2.CandidaturaUno.años.map((e) => (
-              <>
-                <button
-                  data-value={e.año.toString()}
-                  class="miBoton buttonyear text-sm font-semibold bg-[#171C2F] text-[#D5F379] w-[100px] h-[30px] justify-center items-center flex"
-                  onClick={() => setAñoSeleccionado(e.año)}
-                >
-                  {e.año}
-                </button>
-              </>
-            ))
-            : LocalidadesV2.CandidaturaDos.años.map((e) => (
-              <>
-                <button
-                  data-value={e.año.toString()}
-                  class="miBoton buttonyear text-sm font-semibold bg-[#171C2F] text-[#D5F379] w-[100px] h-[30px] justify-center items-center flex"
-                  onClick={() => setAñoSeleccionado(e.año)}
-                >
-                  {e.año}
-                </button>
-              </>
-            ))}
+    <div className="flex items-center justify-between mt-5 shadow-xl rounded-xl w-full px-10 lg:px-20 pb-10">
+      <div className="flex flex-col">
+        {localidad != undefined && añoSelect.length > 0 &&
+          <>
+            {candidatura == 0 ?
+              <div className="my-5">
+                <div className="flex flex-col">
+                  <span className="text-2xl font-bold">Enrique Peñalosa</span>
+                  <span className="text-lg">alcalde en el año 2016-2019</span>
+                </div>
+              </div>
+              :
+              <div className="my-5">
+                <div className="flex flex-col">
+                  <span className="text-2xl font-bold">Claudia Lopez</span>
+                  <span className="text-lg">alcalde en el año 2020-2023</span>
+                </div>
+              </div>
+            }
+          </>
+        }
+        <div className="flex items-center">
+          <span>Año de candidatura</span>
+          <div className="flex gap-10 justify-center ml-5">
+            {candidatura == 0
+              ? LocalidadesV2.CandidaturaUno.años.map((e) => (
+                <>
+                  <button
+                    data-value={e.año.toString()}
+                    class="miBoton buttonyear text-sm font-semibold bg-[#171C2F] text-[#D5F379] w-[100px] h-[30px] justify-center items-center flex"
+                    onClick={() => setAñoSeleccionado(e.año)}
+                  >
+                    {e.año}
+                  </button>
+                </>
+              ))
+              : LocalidadesV2.CandidaturaDos.años.map((e) => (
+                <>
+                  <button
+                    data-value={e.año.toString()}
+                    class="miBoton buttonyear text-sm font-semibold bg-[#171C2F] text-[#D5F379] w-[100px] h-[30px] justify-center items-center flex"
+                    onClick={() => setAñoSeleccionado(e.año)}
+                  >
+                    {e.año}
+                  </button>
+                </>
+              ))}
+          </div>
         </div>
       </div>
       <label className="flex items-center border-solid border-2 bg-white rounded-2xl h-[3em]">

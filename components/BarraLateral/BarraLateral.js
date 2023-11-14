@@ -11,7 +11,9 @@ export const BarraLateral = ({ candidatura, setCandidatura }) => {
                 <Logo />
                 <span className='text-white'>Security Map</span>
             </a>
-            <span className='border-t-2 border-dashed border-[#D5F379] text-white text-center w-full mt-5 pt-5'>Seleccione un alcalde</span>
+            <div className='border-t-2 border-dashed border-[#D5F379] w-[80%] flex item-center mt-2 pt-2'>
+                <span className='text-white text-center w-full '>Seleccione un alcalde</span>
+            </div>
             <div className='w-full mt-10 pl-5 pr-10'>
                 <div className='flex items-center'>
                     <span class="material-symbols-outlined text-white">
