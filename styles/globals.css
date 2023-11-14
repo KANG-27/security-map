@@ -104,7 +104,7 @@ body {
 
 .barras-laterales-selected .VictoryContainer svg{
   height: revert-layer!important;
-  width: 550px !important;
+  /* width: 650px !important; */
 }
 
 

@@ -68,17 +68,9 @@ export default function InformacionGeneral({
 
             <div className="flex relative flex-col gap-2 bg-[#171C2F] rounded-xl border-2 border-[#D5F379] w-[100%] py-5 justify-center">
               <div className="absolute top-[-10px] left-[410px] bg-white p-1 border-2 border-black rounded-md">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width={24}
-                  height={17}
-                  fill="none"
-                >
-                  <path
-                    fill="#000"
-                    d="M6.377 1.049H23.16v4.196h-1.049v1.048h-6.293a1.049 1.049 0 0 0-1.05 1.05V8.39a2.098 2.098 0 0 1-2.097 2.098H9.126c-.399 0-.766.23-.944.587l-2.57 5.13a1.036 1.036 0 0 1-.934.577H1.133s-3.147 0 1.049-6.294c0 0 3.146-4.196-1.05-4.196V1.05h1.05L2.706 0h3.147l.524 1.049ZM13.72 8.39V7.342a1.049 1.049 0 0 0-1.05-1.049h-1.048s-1.049 1.05 0 2.098a2.098 2.098 0 0 1-2.098-2.098 1.049 1.049 0 0 0-1.049 1.05V8.39a1.049 1.049 0 0 0 1.05 1.05h3.146a1.049 1.049 0 0 0 1.049-1.05Z"
-                  />
-                </svg>
+                <span class="material-symbols-outlined">
+                  front_hand
+                </span>
               </div>
               <div className="border-b-2 border-white flex justify-center mx-10">
                 <span className="text-lg text-cente font-medium text-white">Hurtos sin arma:</span>
