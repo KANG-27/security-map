@@ -80,7 +80,7 @@ export default function InformacionGeneral({
                   />
                 </svg>
               </div>
-              <div className="border-b-2 border-black flex justify-center mx-10">
+              <div className="border-b-2 border-white flex justify-center mx-10">
                 <span className="text-lg text-cente font-medium text-white">Hurtos sin arma:</span>
               </div>
               <div className="flex justify-center py-4 font-semibold">
@@ -228,11 +228,11 @@ export default function InformacionGeneral({
                   question_mark
                 </span>
               </div>
-              <div className="border-b-2 border-black flex justify-center mx-10">
-                <span className="text-lg text-cente font-medium text-[#171C2F]">Hurtos no especificado:</span>
+              <div className="border-b-2 border-white flex justify-center mx-10">
+                <span className="text-lg text-cente font-medium text-white">Hurtos no especificado:</span>
               </div>
               <div className="flex justify-center py-4 font-semibold">
-                <span className="text-5xl text-[#171C2F]">
+                <span className="text-5xl text-white">
                   {data[0].NoReportados}
                 </span>
               </div>
