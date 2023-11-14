@@ -6,6 +6,7 @@ import LocalidadesV2 from "json/LocalidadesV2.json";
 import { LateralIzquierdo } from "@/components/LateralIzquierdo/LateralIzquierdo";
 import { Inferior } from "@/components/Inferior/Inferior";
 import { BarraLateral } from "@/components/BarraLateral/BarraLateral";
+import InformacionGeneral from "@/components/LateralIzquierdo/InformacionGeneral";
 
 export default function Home() {
   const [cordenada, setCordenada] = useState([4.60971, -74.08175]);
@@ -88,7 +89,6 @@ export default function Home() {
 
   return (
     <div className="flex">
-
       <BarraLateral
         candidatura={candidatura}
         setCandidatura={setCandidatura}
@@ -119,15 +119,15 @@ export default function Home() {
             )}
           </div>
         </div>
-        <div className="flex flex-col lg:flex-row items-center mx-10 lg:mx-20 gap-10">
-          <LateralIzquierdo
+        <div className=" lg:flex-row items-center mx-10 lg:mx-20 gap-10">
+
+          <InformacionGeneral
             localidad={localidad}
             color={color}
             candidatura={candidatura}
             añoSeleccionado={añoSeleccionado}
-            setAñoSeleccionado={setAñoSeleccionado}
-            setCandidatura={setCandidatura}
           />
+
           <div className="flex flex-col w-full gap-20">
             {localidad != undefined && añoSelect.length > 0 && (
               <div className="flex justify-between mx-10">
