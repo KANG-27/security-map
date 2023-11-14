@@ -11,6 +11,7 @@ export default function BarraSuperior({
   candidatura,
   añoSeleccionado,
   setCondicionSeleccion,
+  setAñoSeleccionado
 }) {
   // se creo esta variable por que no se actualiza el estado en la primera carga por ende no deja que el usuario busque
   var valor = "";
@@ -64,15 +65,42 @@ export default function BarraSuperior({
   setCondicionSeleccion(dataSelected.length <= 0 ? true : false);
 
   return (
-    <div className="flex items-center justify-between">
-      <a className="flex items-center flex-col ml-5" href="/">
-        <Logo />
-        <span>Security Map</span>
-      </a>
-      <span className="text-lg font-bold" >La localidad escogida es: {value}</span>
-      <label className="flex items-center bg-white rounded-2xl h-[3em]">
+    <div className="flex items-center justify-between mt-5">
+      <div className="flex items-center">
+        <span>Año de candidatura</span>
+        <div className="flex gap-10 justify-center ml-5">
+          {candidatura == 0
+            ? LocalidadesV2.CandidaturaUno.años.map((e) => (
+              <>
+                <button
+                  data-value={e.año.toString()}
+                  class="miBoton buttonyear text-sm font-semibold bg-[#171C2F] text-[#D5F379] w-[100px] h-[30px] justify-center items-center flex"
+                  onClick={() => setAñoSeleccionado(e.año)}
+                >
+                  {e.año}
+                </button>
+              </>
+            ))
+            : LocalidadesV2.CandidaturaDos.años.map((e) => (
+              <>
+                <button
+                  data-value={e.año.toString()}
+                  class="miBoton buttonyear text-sm font-semibold bg-[#171C2F] text-[#D5F379] w-[100px] h-[30px] justify-center items-center flex"
+                  onClick={() => setAñoSeleccionado(e.año)}
+                >
+                  {e.año}
+                </button>
+              </>
+            ))}
+        </div>
+      </div>
+      <label className="flex items-center border-solid border-2 bg-white rounded-2xl h-[3em]">
+        <div className="rounded-full bg-[#D5F379] h-full flex items-center">
+          <span className="material-symbols-outlined mx-2 text-[#171C2F] ">search</span>
+        </div>
         <AutoComplete
           disabled={dataSelected.length > 0 ? false : true}
+          placeholder="Busque una localidad"
           value={value}
           suggestions={items}
           completeMethod={search}
@@ -84,7 +112,6 @@ export default function BarraSuperior({
             setChange(e.value);
           }}
         />
-        <span className="material-symbols-outlined mx-2">search</span>
       </label>
     </div>
   );
