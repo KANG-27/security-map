@@ -98,8 +98,8 @@ body {
 /* estilizar los tamaños de las graficas */
 
 .pie-total-hurtos-select .VictoryContainer{
-  width: 60%!important;
-  height: 60%!important;
+  width: 80%!important;
+  height: 80%!important;
 }
 
 .barras-laterales-selected .VictoryContainer svg{

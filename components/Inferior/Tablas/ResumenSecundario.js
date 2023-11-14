@@ -7,6 +7,7 @@ import {
   VictoryChart,
   VictoryLabel,
   VictoryPie,
+  VictoryPortal,
   VictoryTheme,
   VictoryTooltip,
 } from "victory";
@@ -109,10 +110,12 @@ export const ResumenSecundario = ({ añoSelect, localidad, candidatura }) => {
             <VictoryPie
               data={resumenPie}
               colorScale={["#D5F379", "#171C2F"]}
-              labels={({ datum }) =>
-                `Año candidatura ${añoSelect[0].añoCandidatura} de ${datum.u} Total de Robos: ${datum.y}`
-              }
-              labelComponent={<VictoryTooltip />}
+              labels={({ datum }) => `Total de Robos: ${datum.y}`}
+              // labels={({ datum }) =>
+              //   `Año candidatura ${añoSelect[0].añoCandidatura} de ${datum.u} Total de Robos: ${datum.y}`
+              // }
+              labelComponent={
+                <VictoryTooltip/>}
               style={{
                 labels: {
                   fontSize: 20,

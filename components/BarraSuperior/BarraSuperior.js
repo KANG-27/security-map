@@ -76,14 +76,14 @@ export default function BarraSuperior({
               <div className="my-5">
                 <div className="flex flex-col">
                   <span className="text-2xl font-bold">Enrique Peñalosa</span>
-                  <span className="text-lg">alcalde en el año 2016-2019</span>
+                  <span className="text-lg">Alcalde en el año 2016-2019</span>
                 </div>
               </div>
               :
               <div className="my-5">
                 <div className="flex flex-col">
                   <span className="text-2xl font-bold">Claudia Lopez</span>
-                  <span className="text-lg">alcalde en el año 2020-2023</span>
+                  <span className="text-lg">Alcalde en el año 2020-2023</span>
                 </div>
               </div>
             }
