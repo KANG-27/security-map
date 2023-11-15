@@ -39,7 +39,7 @@ export default function InformacionGeneral({
           </span>
           <div className="grid grid-cols-3 justify-items-center my-20 gap-5">
             <div className="flex relative flex-col gap-2 bg-[#AF85E9] rounded-xl border-2 border-black w-[100%] justify-center">
-              <div className="absolute top-[-10px] left-[410px] bg-white p-1 border-2 border-black rounded-md">
+              <div className="absolute -top-5 sm:left-[410px] left-28 bg-white p-1 border-2 border-black rounded-md">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width={23}
@@ -67,7 +67,7 @@ export default function InformacionGeneral({
             </div>
 
             <div className="flex relative flex-col gap-2 bg-[#171C2F] rounded-xl border-2 border-[#D5F379] w-[100%] py-5 justify-center">
-              <div className="absolute top-[-10px] left-[410px] bg-white p-1 border-2 border-black rounded-md">
+              <div className="absolute -top-5 sm:left-[410px] left-28 bg-white p-1 border-2 border-black rounded-md">
                 <span class="material-symbols-outlined">
                   front_hand
                 </span>
@@ -92,7 +92,7 @@ export default function InformacionGeneral({
 
 
             <div className="flex relative flex-col gap-2 bg-[#D5F379] rounded-xl border-2 border-black w-[100%] py-5 justify-center">
-              <div className="absolute top-[-10px] left-[410px] bg-white p-1 border-2 border-black rounded-md">
+              <div className="absolute -top-5 sm:left-[410px] left-28 bg-white p-1 border-2 border-black rounded-md">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width={20}
@@ -126,7 +126,7 @@ export default function InformacionGeneral({
 
 
             <div className="flex relative flex-col gap-2 bg-[#54EAA2] rounded-xl border-2 border-black w-[100%] py-5 justify-center">
-              <div className="absolute top-[-10px] left-[410px] bg-white p-1 border-2 border-black rounded-md">
+              <div className="absolute -top-5 sm:left-[410px] left-28 bg-white p-1 border-2 border-black rounded-md">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width={24}
@@ -163,7 +163,7 @@ export default function InformacionGeneral({
 
 
             <div className="flex relative flex-col gap-2 bg-[#eae854] rounded-xl border-2 border-black w-[100%] py-5 justify-center">
-              <div className="absolute top-[-10px] left-[410px] bg-white p-1 border-2 border-black rounded-md">
+              <div className="absolute -top-5 sm:left-[410px] left-28 bg-white p-1 border-2 border-black rounded-md">
                 <span class="material-symbols-outlined">
                   air_freshener
                 </span>
@@ -191,7 +191,7 @@ export default function InformacionGeneral({
             </div>
 
             <div className="flex relative flex-col gap-2 bg-[#ff8d23] rounded-xl border-2 border-black w-[100%] py-5 justify-center">
-              <div className="absolute top-[-10px] left-[410px] bg-white p-1 border-2 border-black rounded-md">
+              <div className="absolute -top-5 sm:left-[410px] left-28 bg-white p-1 border-2 border-black rounded-md">
                 <span class="material-symbols-outlined">
                   handyman
                 </span>
@@ -215,7 +215,7 @@ export default function InformacionGeneral({
 
 
             <div className="flex relative flex-col gap-2 bg-[#234bff] rounded-xl border-2 border-black w-[100%] py-5 justify-center">
-              <div className="absolute top-[-10px] left-[410px] bg-white p-1 border-2 border-black rounded-md">
+              <div className="absolute -top-5 sm:left-[410px] left-28 bg-white p-1 border-2 border-black rounded-md">
                 <span class="material-symbols-outlined">
                   question_mark
                 </span>
@@ -240,9 +240,9 @@ export default function InformacionGeneral({
           </div>
         </>
       ) : (
-        <div className="grid grid-cols-3 justify-items-center my-20">
-          <div className="flex relative flex-col gap-2 bg-[#AF85E9] rounded-xl border-2 border-black w-[50%] py-5">
-            <div className="absolute top-[-10px] left-[200px] bg-white p-1 border-2 border-black rounded-md">
+        <div className="grid sm:grid-cols-3 grid-cols-2 justify-items-center my-20 gap-5 sm:mx-10">
+          <div className="flex relative flex-col gap-2 bg-[#AF85E9] rounded-xl border-2 border-black w-full py-5 mt-5">
+            <div className="absolute -top-5 sm:left-96 left-40 bg-white p-1 border-2 border-black rounded-md">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width={23}
@@ -269,8 +269,8 @@ export default function InformacionGeneral({
               </span>
             </div>
           </div>
-          <div className="flex relative flex-col gap-2 bg-[#3e75ec] rounded-xl border-2 border-black w-[50%] py-5">
-            <div className="absolute top-[-10px] left-[200px] bg-white p-1 border-2 border-black rounded-md">
+          <div className="flex relative flex-col gap-2 bg-[#3e75ec] rounded-xl border-2 border-black w-full py-5 mt-5">
+            <div className="absolute -top-5 sm:left-96 left-40bg-white p-1 border-2 border-black rounded-md">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width={23}
@@ -292,8 +292,8 @@ export default function InformacionGeneral({
               </span>
             </div>
           </div>
-          <div className="flex relative flex-col gap-2 bg-[#ec3e3e] rounded-xl border-2 border-black w-[50%] py-5">
-            <div className="absolute top-[-10px] left-[200px] bg-white p-1 border-2 border-black rounded-md">
+          <div className="flex relative flex-col gap-2 bg-[#ec3e3e] rounded-xl border-2 border-black w-full py-5 mt-5">
+            <div className="absolute -top-5 sm:left-96 left-40bg-white p-1 border-2 border-black rounded-md">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width={28}

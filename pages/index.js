@@ -133,7 +133,7 @@ export default function Home() {
           <div className="flex flex-col w-full gap-20 bg-[#171C2F] rounded-xl items-center px-5 pb-5">
             <span className="text-[#D5F379] text-4xl underline mt-10">Informacion sobre la zona</span>
             {localidad != undefined && añoSelect.length > 0 && (
-              <div className="flex justify-between mx-10 gap-20">
+              <div className="flex sm:flex-row flex-col justify-between mx-10 gap-20">
                 <div className="bg-[#D5F379] px-5 py-2 rounded-lg flex justify-center">
                   <span class={
                     color == "red"
