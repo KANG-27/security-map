@@ -4,7 +4,7 @@ import Logo from "../Logo/Logo";
 export const BarraLateral = ({ candidatura, setCandidatura }) => {
   return (
     <div className="bg-[#171C2F] w-full sm:w-[16%]">
-      <div className="flex flex-row items-center sm:flex-col">
+      <div className="flex flex-row items-center sm:flex-col sm:fixed">
         <a className="flex items-center flex-col">
           <Logo />
           <span className="text-white">Security Map</span>

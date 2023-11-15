@@ -270,7 +270,7 @@ export default function InformacionGeneral({
             </div>
           </div>
           <div className="flex relative flex-col gap-2 bg-[#3e75ec] rounded-xl border-2 border-black w-full py-5 mt-5">
-            <div className="absolute -top-5 sm:left-96 left-40bg-white p-1 border-2 border-black rounded-md">
+            <div className="absolute -top-5 sm:left-96 left-40 bg-white p-1 border-2 border-black rounded-md ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width={23}
@@ -293,7 +293,7 @@ export default function InformacionGeneral({
             </div>
           </div>
           <div className="flex relative flex-col gap-2 bg-[#ec3e3e] rounded-xl border-2 border-black w-full py-5 mt-5">
-            <div className="absolute -top-5 sm:left-96 left-40bg-white p-1 border-2 border-black rounded-md">
+            <div className="absolute -top-5 sm:left-96 left-40 bg-white p-1 border-2 border-black rounded-md">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width={28}
