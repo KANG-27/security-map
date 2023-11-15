@@ -88,14 +88,14 @@ export default function Home() {
   }, [candidatura, condicionSeleccion]);
 
   return (
-    <div className="flex">
+    <div className="flex flex-col sm:flex-row">
       <BarraLateral
         candidatura={candidatura}
         setCandidatura={setCandidatura}
       />
-      <div className="flex flex-col w-full">
 
-        <div className=" flex flex-col gap-6">
+      <div className="flex flex-col w-full">
+        <div className="flex flex-col gap-6">
           <BarraSuperior
             setCordenada={setCordenada}
             setZoom={setZoom}

@@ -68,7 +68,7 @@ export default function BarraSuperior({
   setCondicionSeleccion(dataSelected.length <= 0 ? true : false);
 
   return (
-    <div className="flex items-center justify-between mt-5 shadow-xl rounded-xl w-full px-10 lg:px-20 pb-10">
+    <div className="flex flex-col sm:flex-row items-center justify-between mt-5 shadow-xl rounded-xl w-[100%] px-10 lg:px-20 pb-10 bg-white ">
       <div className="flex flex-col">
         {localidad != undefined && añoSelect.length > 0 &&
           <>
@@ -91,7 +91,7 @@ export default function BarraSuperior({
         }
         <div className="flex items-center">
           <span>Año de candidatura</span>
-          <div className="flex gap-10 justify-center ml-5">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-10 justify-center ml-5">
             {candidatura == 0
               ? LocalidadesV2.CandidaturaUno.años.map((e) => (
                 <>
@@ -118,7 +118,7 @@ export default function BarraSuperior({
           </div>
         </div>
       </div>
-      <label className="flex items-center border-solid border-2 bg-white rounded-2xl h-[3em]">
+      <label className="flex items-center border-solid border-2 bg-white rounded-2xl h-[3em] mt-10 sm:mt-0">
         <div className="rounded-full bg-[#D5F379] h-full flex items-center">
           <span className="material-symbols-outlined mx-2 text-[#171C2F] ">search</span>
         </div>
